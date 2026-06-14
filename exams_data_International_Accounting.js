@@ -277,7 +277,7 @@ const examsData = {
             },
             {
                 "id": 18,
-                "text": "What is the cost of inventory in the current year?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">A company incurred the following costs related to the production of inventory in the current year:</p><table class=\"w-full text-sm border-collapse border border-slate-200\" style=\"max-width: 500px;\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Cost Component</th><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Amount</th></tr></thead><tbody><tr><td class=\"border border-slate-200 px-3 py-1.5\">Cost of materials (includes $10,000 abnormal waste)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$100,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Cost of direct labor</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$60,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Allocation of variable overhead costs</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$30,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Allocation of fixed overhead costs (normal capacity)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$25,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Storage costs (after production, prior to sale)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Selling costs</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$8,000</td></tr></tbody></table></div>What is the cost of inventory in the current year?",
                 "options": [
                     { "id": "a", "text": "a. $190,000." },
                     { "id": "b", "text": "b. $205,000." },
@@ -309,7 +309,7 @@ const examsData = {
             },
             {
                 "id": 20,
-                "text": "What is the initial cost of Building reported on Balance sheet December 31, Year 1?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A Company constructed a new factory in Year 1. The cost to construct the factory was $7,000,000 ($2,100,000 for the building and $4,900,000 for equipment).</p><table class=\"w-full text-sm border-collapse border border-slate-200\" style=\"max-width: 500px;\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Description</th><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Value</th></tr></thead><tbody><tr><td class=\"border border-slate-200 px-3 py-1.5\">Building base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,100,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Equipment base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$4,900,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated building removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,000,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated equipment removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$200,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">PV factor (10%, 20 periods)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">0.14864</td></tr></tbody></table></div>What is the initial cost of Building reported on Balance sheet December 31, Year 1?",
                 "options": [
                     { "id": "a", "text": "a. $2,100,000" },
                     { "id": "b", "text": "b. $4,100,000" },
@@ -325,7 +325,7 @@ const examsData = {
             },
             {
                 "id": 21,
-                "text": "What is the initial cost of equipment reported on Balance sheet December 31, Year 1?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A Company constructed a new factory in Year 1. The cost to construct the factory was $7,000,000 ($2,100,000 for the building and $4,900,000 for equipment).</p><table class=\"w-full text-sm border-collapse border border-slate-200\" style=\"max-width: 500px;\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Description</th><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Value</th></tr></thead><tbody><tr><td class=\"border border-slate-200 px-3 py-1.5\">Building base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,100,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Equipment base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$4,900,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated building removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,000,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated equipment removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$200,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">PV factor (10%, 20 periods)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">0.14864</td></tr></tbody></table></div>What is the initial cost of equipment reported on Balance sheet December 31, Year 1?",
                 "options": [
                     { "id": "a", "text": "a. $5,100,000" },
                     { "id": "b", "text": "b. $4,929,728" },
@@ -341,7 +341,7 @@ const examsData = {
             },
             {
                 "id": 22,
-                "text": "How should company report provision for dismantling and removal on its December 31, Year 1 Balance sheet?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A Company constructed a new factory in Year 1. The cost to construct the factory was $7,000,000 ($2,100,000 for the building and $4,900,000 for equipment).</p><table class=\"w-full text-sm border-collapse border border-slate-200\" style=\"max-width: 500px;\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Description</th><th class=\"border border-slate-200 px-3 py-1.5 text-left\">Value</th></tr></thead><tbody><tr><td class=\"border border-slate-200 px-3 py-1.5\">Building base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,100,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Equipment base cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$4,900,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated building removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$2,000,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">Estimated equipment removal cost</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">$200,000</td></tr><tr><td class=\"border border-slate-200 px-3 py-1.5\">PV factor (10%, 20 periods)</td><td class=\"border border-slate-200 px-3 py-1.5 font-bold\">0.14864</td></tr></tbody></table></div>How should company report provision for dismantling and removal on its December 31, Year 1 Balance sheet?",
                 "options": [
                     { "id": "a", "text": "a. An asset of $327,008" },
                     { "id": "b", "text": "b. A liability of $327,008" },
@@ -357,7 +357,7 @@ const examsData = {
             },
             {
                 "id": 23,
-                "text": "The journal entry would be made at December 31, Year 2 is:",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 2 questions:<br>A Company acquired equipment on January 1, Year 1 at a cost of $10 million. The equipment has a five-year life, no residual value, and is depreciated on a straight-line basis. On December 31, Year 2, Company determines the fair value of the asset to be $12 million. A Company decides to carry buildings on the December 31, Year 2, balance sheet at a revalued amount. Company would restate both the buildings account and accumulated depreciation on buildings.</p></div>The journal entry would be made at December 31, Year 2 is:",
                 "options": [
                     { "id": "a", "text": "a. Debit Building $10,000,000. Credit Accumulated depreciation $4,000,000 and Revaluation surplus $6,000,000." },
                     { "id": "b", "text": "b. Debit Building $20,000,000. Credit Accumulated depreciation $8,000,000 and Revaluation surplus $12,000,000." },
@@ -373,7 +373,7 @@ const examsData = {
             },
             {
                 "id": 24,
-                "text": "Assume the company eliminates accumulated depreciation against the building account at the time of revaluation. The journal entry would be made at December 31, Year 2 is:",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 2 questions:<br>A Company acquired equipment on January 1, Year 1 at a cost of $10 million. The equipment has a five-year life, no residual value, and is depreciated on a straight-line basis. On December 31, Year 2, Company determines the fair value of the asset to be $12 million. A Company decides to carry buildings on the December 31, Year 2, balance sheet at a revalued amount. Company would restate both the buildings account and accumulated depreciation on buildings.</p></div>Assume the company eliminates accumulated depreciation against the building account at the time of revaluation. The journal entry would be made at December 31, Year 2 is:",
                 "options": [
                     { "id": "a", "text": "a. Debit Building $10,000,000. Credit Accumulated depreciation $4,000,000 and Revaluation surplus $6,000,000." },
                     { "id": "b", "text": "b. Debit Building $20,000,000. Credit Accumulated depreciation $8,000,000 and Revaluation surplus $12,000,000." },
