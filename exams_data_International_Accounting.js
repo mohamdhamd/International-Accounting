@@ -1900,7 +1900,7 @@ const examsData = {
             },
             {
                 "id": 26,
-                "text": "Under the current rate method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next two questions:</p><p class=\"mb-2\">Selected balance sheet accounts of a foreign subsidiary of the U.S. Company have been translated into parent currency ($) as follows:</p><div class=\"overflow-x-auto\"><table class=\"min-w-full text-sm text-left text-gray-600 border border-collapse border-gray-200\"><thead class=\"bg-emerald-100/50 text-emerald-900 font-semibold\"><tr><th class=\"p-2 border border-gray-200\">Account</th><th class=\"p-2 border border-gray-200 text-right\">Translate at Current rate</th><th class=\"p-2 border border-gray-200 text-right\">Translate at Historical rate</th></tr></thead><tbody><tr><td class=\"p-2 border border-gray-200\">Account receivable</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$200,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$240,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Inventory, cost</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$300,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$350,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Property, plant, and equipment</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$400,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$420,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Patent</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$250,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$280,000</td></tr></tbody></table></div></div>Under the current rate method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
                 "options": [
                     { "id": "a", "text": "a. $1,270,000" },
                     { "id": "b", "text": "b. $1,220,000" },
@@ -1916,7 +1916,7 @@ const examsData = {
             },
             {
                 "id": 27,
-                "text": "Under the temporal method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next two questions:</p><p class=\"mb-2\">Selected balance sheet accounts of a foreign subsidiary of the U.S. Company have been translated into parent currency ($) as follows:</p><div class=\"overflow-x-auto\"><table class=\"min-w-full text-sm text-left text-gray-600 border border-collapse border-gray-200\"><thead class=\"bg-emerald-100/50 text-emerald-900 font-semibold\"><tr><th class=\"p-2 border border-gray-200\">Account</th><th class=\"p-2 border border-gray-200 text-right\">Translate at Current rate</th><th class=\"p-2 border border-gray-200 text-right\">Translate at Historical rate</th></tr></thead><tbody><tr><td class=\"p-2 border border-gray-200\">Account receivable</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$200,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$240,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Inventory, cost</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$300,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$350,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Property, plant, and equipment</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$400,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$420,000</td></tr><tr><td class=\"p-2 border border-gray-200\">Patent</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$250,000</td><td class=\"p-2 border border-gray-200 text-right font-mono\">$280,000</td></tr></tbody></table></div></div>Under the temporal method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
                 "options": [
                     { "id": "a", "text": "a. $1,270,000" },
                     { "id": "b", "text": "b. $1,220,000" },
@@ -1932,7 +1932,7 @@ const examsData = {
             },
             {
                 "id": 28,
-                "text": "How should the option be recorded on May 1, 2023?",
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>How should the option be recorded on May 1, 2023?",
                 "options": [
                     { "id": "a", "text": "a. Debit foreign currency option for $201,000." },
                     { "id": "b", "text": "b. Debit foreign currency option for $1,000" },
@@ -1948,7 +1948,7 @@ const examsData = {
             },
             {
                 "id": 29,
-                "text": "What is the time value of the option on May 1, 2023?",
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>What is the time value of the option on May 1, 2023?",
                 "options": [
                     { "id": "a", "text": "a. $100,000" },
                     { "id": "b", "text": "b. $1,000" },
@@ -1964,7 +1964,7 @@ const examsData = {
             },
             {
                 "id": 30,
-                "text": "What is the intrinsic value of the option on May 1, 2023?",
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>What is the intrinsic value of the option on May 1, 2023?",
                 "options": [
                     { "id": "a", "text": "a. $100,000" },
                     { "id": "b", "text": "b. $1,000" },
