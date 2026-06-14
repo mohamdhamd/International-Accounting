@@ -2642,10 +2642,12 @@
             color: #1e293b !important;
         }
 
-        /* Hide redundant shared tables in group view (only show the first one) */
+        /* Hide redundant shared tables in group view (only show the first one) - Handled dynamically via JS */
+        /*
         #questions-container .question-block ~ .question-block .fahd-shared-table {
             display: none !important;
         }
+        */
 
         /* Dashboard Bookmark Card */
         .bookmark-dashboard-card {
@@ -3283,8 +3285,22 @@
             }
 
             questionsContainer.innerHTML = '';
+            let lastTableHTML = null;
             group.indices.forEach((qIndex) => {
-                const block = buildQuestionBlock(activeQuestions[qIndex], qIndex);
+                const q = activeQuestions[qIndex];
+                const block = buildQuestionBlock(q, qIndex);
+                
+                // Hide redundant shared tables in the same group dynamically
+                const tableEl = block.querySelector('.fahd-shared-table');
+                if (tableEl) {
+                    const currentTableHTML = tableEl.innerHTML.trim();
+                    if (currentTableHTML === lastTableHTML) {
+                        tableEl.style.display = 'none';
+                    } else {
+                        lastTableHTML = currentTableHTML;
+                    }
+                }
+                
                 questionsContainer.appendChild(block);
             });
 
