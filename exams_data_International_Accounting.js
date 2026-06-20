@@ -1979,6 +1979,1612 @@ const examsData = {
                 "reference_title": "المحاضرة السابعة — تحوط الأصول وفصل قيم الخيارات"
             }
         ]
+    },
+    
+    "accounting_programs_exam_model_Credit_2026": {
+        "title": "امتحان كريدت 2026",
+        "description": "بسم الله وأبدأ — بنك الأسئلة الشامل والمطابق لمعايير الامتحانات النهائية وتصحيحات البوكلت المعتمدة",
+        "questions": [
+            {
+                "id": 1,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>fair value hedge</strong>. Relevant exchange rates are as follows:</p><ul><li>December 1, Year 1: Spot rate $ 0.24, Forward rate (to 31/3/Y2) $ 0.23</li><li>December 31, Year 1: Spot rate $ 0.22, Forward rate $ 0.20</li><li>March 31, Year 2: Spot rate $ 0.25</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706</p></div>How should U.S. company report the forward contract on December 31, Year 1?",
+                "options": [
+                    { "id": "a", "text": "a. An asset $ 30,000" },
+                    { "id": "b", "text": "b. An asset $ 29,118" },
+                    { "id": "c", "text": "c. A liability $ 30,000" },
+                    { "id": "d", "text": "d. A liability $ 29,118" },
+                    { "id": "e", "text": "e. An asset $ 9,706" }
+                ],
+                "correct": "b",
+                "basmaga": "عاقدين نبيع بـ 0.23 والسوق الآجل نزل لـ 0.20، يعني كسبنا 0.03 ف المليون = 30k.. اضربها ف معامل الخصم 0.9706 تطلع 29,118 كأصل.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) An asset $ 29,118</strong><br><br>إحنا متعاقدين نبيع للبنك بسعر 0.23، والسعر الآجل في السوق نزل لـ 0.20، يعني إحنا هنبيع للبنك أغلى من السوق. المكسب الكلي = (0.23 - 0.20) × 1,000,000 = 30,000 دولار. بنضرب المكسب في القيمة الحالية (0.9706) = 29,118 دولار، ولأنه مكسب بيظهر في الميزانية كأصل (Asset).",
+                "reference": "l7-acc2",
+                "reference_title": "المحاضرة السابعة — تحوط القيمة العادلة"
+            },
+            {
+                "id": 2,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>fair value hedge</strong>. Relevant exchange rates are as follows:</p><ul><li>December 1, Year 1: Spot rate $ 0.24, Forward rate (to 31/3/Y2) $ 0.23</li><li>December 31, Year 1: Spot rate $ 0.22, Forward rate $ 0.20</li><li>March 31, Year 2: Spot rate $ 0.25</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706</p></div>The journal entry on December 31, Year 1, to record the fair value of forward contract would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Debit loss on forward contract for $ 29,118" },
+                    { "id": "b", "text": "b. Credit gain on forward contract for $ 30,000" },
+                    { "id": "c", "text": "c. Debit AOCI for $ 9,706" },
+                    { "id": "d", "text": "d. Credit AOCI for $ 29,118" },
+                    { "id": "e", "text": "e. Credit gain on forward contract for $ 29,118" }
+                ],
+                "correct": "e",
+                "basmaga": "في الـ Fair value hedge المكسب بيروح قايمة الدخل علطول كإيراد Credit Gain، وقيمته اللي لسه حاسبينها 29,118.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Credit gain on forward contract for $ 29,118</strong><br><br>في نظام الـ Fair Value Hedge، المكسب من التقييم مابيروحش الـ AOCI زي التدفقات النقدية، بل بيترمي فوراً كـ مكسب في قايمة الدخل. القيد بيكون: مدين العقد الآجل (لأنه أصل زاد)، ودائن مكاسب تقييم العقد (Credit gain) بـ 29,118.",
+                "reference": "l7-acc2",
+                "reference_title": "المحاضرة السابعة — تحوط القيمة العادلة"
+            },
+            {
+                "id": 3,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>fair value hedge</strong>. Relevant exchange rates are as follows:</p><ul><li>December 1, Year 1: Spot rate $ 0.24, Forward rate (to 31/3/Y2) $ 0.23</li><li>December 31, Year 1: Spot rate $ 0.22, Forward rate $ 0.20</li><li>March 31, Year 2: Spot rate $ 0.25</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706</p></div>The journal entry on December 31, Year 1, to adjust the value of accounts receivable would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Credit foreign exchange gain for $ 20,000" },
+                    { "id": "b", "text": "b. Credit foreign exchange gain for $ 10,000" },
+                    { "id": "c", "text": "c. Debit foreign exchange loss for $ 20,000" },
+                    { "id": "d", "text": "d. Debit foreign exchange loss for $ 10,000" },
+                    { "id": "e", "text": "e. Debit AOCI for $ 20,000" }
+                ],
+                "correct": "c",
+                "basmaga": "حساب العملاء بيمشي مع الفوري Spot.. السعر الفوري نزل من 0.24 لـ 0.22 يعني خسرنا 0.02 ف المليون بـ 20,000 خسارة مدينه.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Debit foreign exchange loss for $ 20,000</strong><br><br>تعديل حساب العملاء دايماً بيكون بالسعر الفوري (Spot). السعر نزل من 0.24 لـ 0.22، يعني قيمة فلوسنا اللي برة قلت وخسرنا 0.02 عن كل يورو. الخسارة الكلية = (0.24 - 0.22) × 1,000,000 = 20,000 دولار، وتتسجل ف الطرف المدين كخسارة.",
+                "reference": "l7-acc2",
+                "reference_title": "المحاضرة السابعة — تحوط القيمة العادلة"
+            },
+            {
+                "id": 4,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>fair value hedge</strong>. Relevant exchange rates are as follows:</p><ul><li>December 1, Year 1: Spot rate $ 0.24, Forward rate (to 31/3/Y2) $ 0.23</li><li>December 31, Year 1: Spot rate $ 0.22, Forward rate $ 0.20</li><li>March 31, Year 2: Spot rate $ 0.25</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706</p></div>The journal entry on March 31, Year 2, to adjust the fair value of forward contract would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Debit loss on forward contract for $ 49,118" },
+                    { "id": "b", "text": "b. Credit gain on forward contract for $ 49,118" },
+                    { "id": "c", "text": "c. Debit AOCI for $ 20,000" },
+                    { "id": "d", "text": "d. Debit AOCI for $ 49,118" },
+                    { "id": "e", "text": "e. Credit gain on forward contract for $ 19,412" }
+                ],
+                "correct": "a",
+                "basmaga": "في مارس العقد خسران 20k، وكنا كاتبينه أصل بموجب 29,118.. الفرق من موجب لسالب يدينا هبدة بـ 49,118 دولار خسارة مدين.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Debit loss on forward contract for $ 49,118</strong><br><br>يوم التنفيذ، السعر الآجل بيبقى هو السعر الفوري (0.25). العقد بيجبرنا نبيع بـ 0.23 والسوق بـ 0.25، إذن العقد النهائي خسران 20,000 دولار. إحنا كنا مسجلينه في ديسمبر كأصل بـ +29,118، وعشان ننزل من الأصل ده لحد السالب 20,000، لازم نسجل خسارة وننقص بـ 49,118 دولار (Debit Loss).",
+                "reference": "l7-acc2",
+                "reference_title": "المحاضرة السابعة — تحوط القيمة العادلة"
+            },
+            {
+                "id": 5,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>fair value hedge</strong>. Relevant exchange rates are as follows:</p><ul><li>December 1, Year 1: Spot rate $ 0.24, Forward rate (to 31/3/Y2) $ 0.23</li><li>December 31, Year 1: Spot rate $ 0.22, Forward rate $ 0.20</li><li>March 31, Year 2: Spot rate $ 0.25</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706</p></div>The journal entry on March 31, Year 2, to adjust the value of accounts receivable would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Credit foreign exchange gain for $ 30,000" },
+                    { "id": "b", "text": "b. Credit foreign exchange gain for $ 20,000" },
+                    { "id": "c", "text": "c. Debit foreign exchange loss for $ 20,000" },
+                    { "id": "d", "text": "d. Debit foreign exchange loss for $ 10,000" },
+                    { "id": "e", "text": "e. Credit AOCI for $ 30,000" }
+                ],
+                "correct": "a",
+                "basmaga": "العملاء ماشية مع الفوري Spot.. من 0.22 لـ 0.25 في مارس السعر رفع 0.03 يعني مكسب 30,000 دائن.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Credit foreign exchange gain for $ 30,000</strong><br><br>السعر الفوري (Spot) زاد في مارس لـ 0.25 مقارنة بـ 0.22 في ديسمبر. الفرق 0.03 كزيادة يعني مكسب لحساب العملاء. 0.03 × 1,000,000 = 30,000 دولار مكسب يتسجل دائن (Credit foreign exchange gain).",
+                "reference": "l7-acc2",
+                "reference_title": "المحاضرة السابعة — تحوط القيمة العادلة"
+            },
+            {
+                "id": 6,
+                "text": "Assuming a U.S. company decides to designate the forward contract as cash flow hedge, The journal entry on December 31, Year 1, to record the fair value of forward contract would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Debit loss on forward contract for $ 29,118" },
+                    { "id": "b", "text": "b. Credit gain on forward contract for $ 30,000" },
+                    { "id": "c", "text": "c. Debit AOCI for $ 9,706" },
+                    { "id": "d", "text": "d. Credit AOCI for $ 29,118" },
+                    { "id": "e", "text": "e. Credit gain on forward contract for $ 29,118" }
+                ],
+                "correct": "d",
+                "basmaga": "طالما شغالين Cash flow hedge والمكسب طلع 29,118، يبقى حساب العقد مدين وقصاده حساب الـ AOCI دائن بالـ 29,118.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Credit AOCI for $ 29,118</strong><br><br>تحت نظام تحوط التدفقات النقدية، مكسب العقد الآجل البالغ 29,118 دولار بيتم إثباته بجعل حساب العقد مدين، والطرف الدائن الإجباري هو حساب حقوق الملكية الاحتياطي المسمى (Credit AOCI) بنفس القيمة.",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — تحوط التدفقات النقدية"
+            },
+            {
+                "id": 7,
+                "text": "Use the following choices to answer the next 4 questions:\na. The forward rate\nb. The time value\nc. The intrinsic value\nd. The spot rate\ne. The strike price\n\n..... is the exchange rate at which the option will be executed if the holder of the option decides to exercise it.",
+                "options": [
+                    { "id": "a", "text": "a. The forward rate" },
+                    { "id": "b", "text": "b. The time value" },
+                    { "id": "c", "text": "c. The intrinsic value" },
+                    { "id": "d", "text": "d. The spot rate" },
+                    { "id": "e", "text": "e. The strike price" }
+                ],
+                "correct": "e",
+                "basmaga": "سعر الإعدام والتنفيذ المكتوب في ورقة عقد الخيار واللي هنفذ بيه exercise، ده الـ strike price.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) The strike price</strong><br><br>سعر التنفيذ (Strike Price) هو السعر المتفق والمربوط المكتوب جوه عقد الخيارات، واللي بيدي المشتري الحق إنه ينفذ ويبيع أو يشتري بيه.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — مفاهيم عقود الخيارات"
+            },
+            {
+                "id": 8,
+                "text": "Use the following choices to answer the next 4 questions:\na. The forward rate\nb. The time value\nc. The intrinsic value\nd. The spot rate\ne. The strike price\n\n..... is the price today at which foreign currency can be purchased or sold sometime in the future.",
+                "options": [
+                    { "id": "a", "text": "a. The forward rate" },
+                    { "id": "b", "text": "b. The time value" },
+                    { "id": "c", "text": "c. The intrinsic value" },
+                    { "id": "d", "text": "d. The spot rate" },
+                    { "id": "e", "text": "e. The strike price" }
+                ],
+                "correct": "a",
+                "basmaga": "سعر نتفق عليه النهارده للتنفيذ والتبديل في المستقبل sometime in the future، ده السعر الآجل Forward rate.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) The forward rate</strong><br><br>السعر الآجل (Forward Rate) هو السعر المتفق عليه قانونياً النهارده في عقود الصرف لتنفيذ عملية البيع أو الشراء لعملة في تاريخ مستقبلي.",
+                "reference": "l5-acc1",
+                "reference_title": "المحاضرة الخامسة — أسعار الصرف الفورية والآجلة"
+            },
+            {
+                "id": 9,
+                "text": "Use the following choices to answer the next 4 questions:\na. The forward rate\nb. The time value\nc. The intrinsic value\nd. The spot rate\ne. The strike price\n\n..... is the price at which a foreign currency can be purchased or sold today.",
+                "options": [
+                    { "id": "a", "text": "a. The forward rate" },
+                    { "id": "b", "text": "b. The time value" },
+                    { "id": "c", "text": "c. The intrinsic value" },
+                    { "id": "d", "text": "d. The spot rate" },
+                    { "id": "e", "text": "e. The strike price" }
+                ],
+                "correct": "d",
+                "basmaga": "السعر بتاع النهارده اللي بننفذ بيه حالاً وفوراً today، ده السعر الفوري Spot rate.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) The spot rate</strong><br><br>السعر الفوري (Spot rate) هو السعر المتاح حالياً في السوق لتنفيذ أي معاملة فورية اليوم.",
+                "reference": "l5-acc1",
+                "reference_title": "المحاضرة الخامسة — أسعار الصرف الفورية والآجلة"
+            },
+            {
+                "id": 10,
+                "text": "Use the following choices to answer the next 4 questions:\na. The forward rate\nb. The time value\nc. The intrinsic value\nd. The spot rate\ne. The strike price\n\nIf the strike price and spot rate are the same, the premium is based only on:",
+                "options": [
+                    { "id": "a", "text": "a. The forward rate" },
+                    { "id": "b", "text": "b. The time value" },
+                    { "id": "c", "text": "c. The intrinsic value" },
+                    { "id": "d", "text": "d. The spot rate" },
+                    { "id": "e", "text": "e. The strike price" }
+                ],
+                "correct": "b",
+                "basmaga": "سعر العقد هو هو سعر السوق النهارده، يعني مفيش مكسب جوهري (Intrinsic = 0)، والقسط كله قايم على القيمة الزمنية Time value.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) The time value</strong><br><br>بما إن سعر التنفيذ (Strike) بيساوي السعر الفوري (Spot)، المكسب الفوري بيساوي صفر، والقيمة الجوهرية بتكون صفر، وبيبقى تمن العقد بالكامل بيمثل فقط القيمة الزمنية.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — تحوط الأصول وفصل قيم الخيارات"
+            },
+            {
+                "id": 11,
+                "text": "Which of the following statements is NOT true?",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency options may be classified as put or call options" },
+                    { "id": "b", "text": "b. The intrinsic value of an option is equal to the gain that could be realized by exercising the option immediately." },
+                    { "id": "c", "text": "c. Foreign currency options gives the holder of the option the right, but not the obligation, to trade foreign currency in the future" },
+                    { "id": "d", "text": "d. Foreign currency forward contract will only be executed when the forward rate exceeds the spot rate at maturity." },
+                    { "id": "e", "text": "e. Option premium is the function of two components intrinsic value and time value." }
+                ],
+                "correct": "d",
+                "basmaga": "العقد الآجل forward إجبار وإلزام مش بمزاجك، فهتنفذه غصب عنك حتى لو مفيش مكسب، فالجملة دي كدب صريح.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Foreign currency forward contract will only be executed when the forward rate exceeds the spot rate at maturity.</strong><br><br>العبارة دي خاطئة لأن العقود الآجلة (Forward Contracts) هي عقود مُلزمة (Obligations) ويجب تنفيذها في الموعد المحدد بغض النظر عن كون أسعار الصرف في صالحك أم لا، عكس عقود الخيارات.",
+                "reference": "l5-acc4",
+                "reference_title": "المحاضرة الخامسة — عقود الأدوات والمشتقات المالية"
+            },
+            {
+                "id": 12,
+                "text": "Use the following choices to answer the next 2 questions:\na. International transaction\nb. Cash flow hedge accounting\nc. A forecasted foreign-currency-denominated transaction\nd. A recognized foreign-currency-denominated asset\ne. A foreign currency firm commitment\n\nWhen company enters into a forward contract or acquires an option on the date the sale is made, the derivative is being used as hedge of:",
+                "options": [
+                    { "id": "a", "text": "a. International transaction" },
+                    { "id": "b", "text": "b. Cash flow hedge accounting" },
+                    { "id": "c", "text": "c. A forecasted foreign-currency-denominated transaction" },
+                    { "id": "d", "text": "d. A recognized foreign-currency-denominated asset" },
+                    { "id": "e", "text": "e. A foreign currency firm commitment" }
+                ],
+                "correct": "d",
+                "basmaga": "مضينا العقد في نفس يوم البيع (date the sale is made)؟ يبقى إحنا بنحمي حساب العملاء اللي اتسجل خلاص يعني Recognized asset.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) A recognized foreign-currency-denominated asset</strong><br><br>طالما عملية البيع تمت، إذن إحنا سجلنا في الدفاتر حساب عملاء (Accounts Receivable) كأصل، وبالتالي العقد بيحميه كأصل معترف به في الدفاتر.",
+                "reference": "l6-acc1",
+                "reference_title": "المحاضرة السادسة — مفاهيم وأنواع علاقات محاسبة التحوط"
+            },
+            {
+                "id": 13,
+                "text": "Use the following choices to answer the next 2 questions:\na. International transaction\nb. Cash flow hedge accounting\nc. A forecasted foreign-currency-denominated transaction\nd. A recognized foreign-currency-denominated asset\ne. A foreign currency firm commitment\n\nA non-cancelable sales order that specifies foreign currency price and date of delivery is known as a:",
+                "options": [
+                    { "id": "a", "text": "a. International transaction" },
+                    { "id": "b", "text": "b. Cash flow hedge accounting" },
+                    { "id": "c", "text": "c. A forecasted foreign-currency-denominated transaction" },
+                    { "id": "d", "text": "d. A recognized foreign-currency-denominated asset" },
+                    { "id": "e", "text": "e. A foreign currency firm commitment" }
+                ],
+                "correct": "e",
+                "basmaga": "أمر بيع غير قابل للإلغاء non-cancelable، ده بالبلدي التزام راسخ firm commitment لا رجعة فيه.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) A foreign currency firm commitment</strong><br><br>التعريف الأكاديمي لـ (Firm Commitment) هو طلب بيع أو شراء غير قابل للإلغاء ومحدد فيه السعر والتاريخ، وبيعتبر من ضمن العلاقات اللي بينفع نستخدم معاها Fair value hedge.",
+                "reference": "l6-acc1",
+                "reference_title": "المحاضرة السادسة — مفاهيم وأنواع علاقات محاسبة التحوط"
+            },
+            {
+                "id": 14,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 1, Year 2. On December 1, Year 1, the U.S. company purchases a put option from its bank with a strike price of $1.20 when the spot rate is $1.20, paying a premium of $0.007 per Euro. On December 31, Year 1, the spot rate is $1.22 and the option premium is $0.004 per Euro.</p></div>What is the fair value of the option on December 1, Year 1?",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,200,000" },
+                    { "id": "b", "text": "b. $ 7,000" },
+                    { "id": "c", "text": "c. $ 4,000" },
+                    { "id": "d", "text": "d. $ 3,000" },
+                    { "id": "e", "text": "e. $ 1,220,000" }
+                ],
+                "correct": "b",
+                "basmaga": "قيمة الخيار أول يوم هي تمن القسط اللي دفعناه: 0.007 مضروبة في المليون يورو تطلع 7,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) $ 7,000</strong><br><br>القيمة العادلة للخيار يوم التأسيس والشراء هي تمن القسط المدفوع (Premium). القسط = 1,000,000 يورو × 0.007 دولار = 7,000 دولار.",
+                "reference": "l7-acc6",
+                "reference_title": "المحاضرة السابعة — خيارات العملة كأداة تغطية"
+            },
+            {
+                "id": 15,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 1, Year 2. On December 1, Year 1, the U.S. company purchases a put option from its bank with a strike price of $1.20 when the spot rate is $1.20, paying a premium of $0.007 per Euro. On December 31, Year 1, the spot rate is $1.22 and the option premium is $0.004 per Euro.</p></div>What is the fair value of the option on December 31, Year1?",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,200,000" },
+                    { "id": "b", "text": "b. $ 7,000" },
+                    { "id": "c", "text": "c. $ 4,000" },
+                    { "id": "d", "text": "d. $ 3,000" },
+                    { "id": "e", "text": "e. $ 1,220,000" }
+                ],
+                "correct": "c",
+                "basmaga": "قيمة الخيار آخر السنة هي تمن القسط الجديد في السوق: 0.004 مضروبة في المليون تطلع 4,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) $ 4,000</strong><br><br>القيمة العادلة للخيار يوم الميزانية (31 ديسمبر) بتعتمد على سعر القسط الجديد في السوق. القسط الجديد = 1,000,000 × 0.004 = 4,000 دولار.",
+                "reference": "l7-acc6",
+                "reference_title": "المحاضرة السابعة — خيارات العملة كأداة تغطية"
+            },
+            {
+                "id": 16,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 1, Year 2. On December 1, Year 1, the U.S. company purchases a put option from its bank with a strike price of $1.20 when the spot rate is $1.20, paying a premium of $0.007 per Euro. On December 31, Year 1, the spot rate is $1.22 and the option premium is $0.004 per Euro.</p></div>What is the foreign exchange gain or loss on December 31, Year1?",
+                "options": [
+                    { "id": "a", "text": "a. $ 20,000 gain" },
+                    { "id": "b", "text": "b. $ 20,000 loss" },
+                    { "id": "c", "text": "c. $ 3,000 gain" },
+                    { "id": "d", "text": "d. $ 3,000 loss" },
+                    { "id": "e", "text": "e. $ 4,000 gain" }
+                ],
+                "correct": "a",
+                "basmaga": "العملاء معتمدين على السعر الفوري اللي رفع من 1.20 لـ 1.22، إحنا مصدرين يبقى كسبنا 0.02 ف المليون = 20,000 مكسب.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) $ 20,000 gain</strong><br><br>حساب العملاء بيمشي مع السعر الفوري (Spot rate). السعر زاد من 1.20 لـ 1.22. المكسب = (1.22 - 1.20) × 1,000,000 يورو = 20,000 دولار مكسب (Gain).",
+                "reference": "l7-acc6",
+                "reference_title": "المحاضرة السابعة — خيارات العملة كأداة تغطية"
+            },
+            {
+                "id": 17,
+                "text": "Which of the following is NOT acceptable under international financial reporting standards (IFRS)?",
+                "options": [
+                    { "id": "a", "text": "a. The one-transaction perspective" },
+                    { "id": "b", "text": "b. The two-transaction perspective" },
+                    { "id": "c", "text": "c. The accrual approach" },
+                    { "id": "d", "text": "d. The deferral approach" },
+                    { "id": "e", "text": "e. Both a and d" }
+                ],
+                "correct": "e",
+                "basmaga": "المعايير بترفض منظور الصفقة الواحدة ومبدأ التأجيل deferral، اختار Both a and d.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and d</strong><br><br>المعايير الدولية بترفض تماماً منظور الصفقة الواحدة (One-transaction) وطريقة تأجيل الخسائر (Deferral approach)، وبتعتمد فقط على منظور الصفقتين والاعتراف الفوري بأساس الاستحقاق.",
+                "reference": "l5-acc3",
+                "reference_title": "المحاضرة الخامسة — المنظورات المحاسبية المقبولة والمرفوضة"
+            },
+            {
+                "id": 18,
+                "text": "Use the following choices to answer the next 3 questions:\na. Carrying value\nb. Value-in-use\nc. Recoverable amount\nd. Net realizable value\ne. Fair value\n\n..... is determined as the present value of future net cash flows expected arise from continued use of the asset over its remaining useful life and upon disposal.",
+                "options": [
+                    { "id": "a", "text": "a. Carrying value" },
+                    { "id": "b", "text": "b. Value-in-use" },
+                    { "id": "c", "text": "c. Recoverable amount" },
+                    { "id": "d", "text": "d. Net realizable value" },
+                    { "id": "e", "text": "e. Fair value" }
+                ],
+                "correct": "b",
+                "basmaga": "تلمح present value of future net cash flows (قيمة حالية من تشغيل الأصل) دي القيمة قيد الاستخدام Value-in-use.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Value-in-use</strong><br><br>القيمة قيد الاستخدام (Value in Use) بتعني حساب الكاش المتوقع من تشغيل الأصل وجلب القيمة الحالية (PV) بتاعته النهارده.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — مفاهيم الاضمحلال"
+            },
+            {
+                "id": 19,
+                "text": "Use the following choices to answer the next 3 questions:\na. Carrying value\nb. Value-in-use\nc. Recoverable amount\nd. Net realizable value\ne. Fair value\n\n..... is defined as estimated selling price less the estimated costs to complete and make the sale.",
+                "options": [
+                    { "id": "a", "text": "a. Carrying value" },
+                    { "id": "b", "text": "b. Value-in-use" },
+                    { "id": "c", "text": "c. Recoverable amount" },
+                    { "id": "d", "text": "d. Net realizable value" },
+                    { "id": "e", "text": "e. Fair value" }
+                ],
+                "correct": "d",
+                "basmaga": "سعر البيع ناقص التكاليف يبقى ده الـ NRV اللي بنقيس بيه المخزون.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Net realizable value</strong><br><br>صافي القيمة البيعية (NRV) هو سعر البيع المتوقع مخصوماً منه أي تكاليف متبقية للبيع والإكمال.",
+                "reference": "l2-acc3",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون"
+            },
+            {
+                "id": 20,
+                "text": "Use the following choices to answer the next 3 questions:\na. Carrying value\nb. Value-in-use\nc. Recoverable amount\nd. Net realizable value\ne. Fair value\n\n..... is defined as the amount for which an asset could be exchanged between knowledgeable, willing parties in an arm's length transaction.",
+                "options": [
+                    { "id": "a", "text": "a. Carrying value" },
+                    { "id": "b", "text": "b. Value-in-use" },
+                    { "id": "c", "text": "c. Recoverable amount" },
+                    { "id": "d", "text": "d. Net realizable value" },
+                    { "id": "e", "text": "e. Fair value" }
+                ],
+                "correct": "e",
+                "basmaga": "أطراف راضية وعارفة arm's length، ده التعريف الأكاديمي للقيمة العادلة Fair value.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Fair value</strong><br><br>القيمة العادلة (Fair Value) هي سعر التبادل بين أطراف واعية في سوق حر.",
+                "reference": "l3-acc2",
+                "reference_title": "المحاضرة الثالثة — نماذج التقييم"
+            },
+            {
+                "id": 21,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">The following inventory information was taken from the records of ABC company on December 31, Year 1:</p><ul><li>Historical cost $ 30,000</li><li>Replacement cost $ 22,000</li><li>Estimated selling price $ 27,000</li><li>Estimated costs to complete and sell $ 2,000</li><li>Normal profit margin $ 7,500</li></ul></div>Under IAS (2), what should the Balance Sheet report for Inventory ?",
+                "options": [
+                    { "id": "a", "text": "a. $ 22,000" },
+                    { "id": "b", "text": "b. $ 30,000" },
+                    { "id": "c", "text": "c. $ 25,000" },
+                    { "id": "d", "text": "d. $ 19,500" },
+                    { "id": "e", "text": "e. $ 27,000" }
+                ],
+                "correct": "c",
+                "basmaga": "احسب الـ NRV (27k - 2k = 25k)، وقارنه بالتكلفة (30k)، وخد الأقل اللي هو 25k.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) $ 25,000</strong><br><br>المعيار الدولي بيأخد الأقل بين التكلفة وصافي القيمة البيعية. الـ NRV = 27,000 - 2,000 = 25,000. الأقل بين الـ 30,000 والـ 25,000 هو 25,000.",
+                "reference": "l2-acc4",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون IAS 2"
+            },
+            {
+                "id": 22,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">The following inventory information was taken from the records of ABC company on December 31, Year 1:</p><ul><li>Historical cost $ 30,000</li><li>Replacement cost $ 22,000</li><li>Estimated selling price $ 27,000</li><li>Estimated costs to complete and sell $ 2,000</li><li>Normal profit margin $ 7,500</li></ul></div>Assume that subsequent to your adjustment the expected selling price increases to $ 34,000. (All the rest of the facts are the same). What adjustment to inventory should be made under IAS 2 after this event?",
+                "options": [
+                    { "id": "a", "text": "a. Inventory should be increased (debited) by $ 5,000." },
+                    { "id": "b", "text": "b. Inventory should be decreased (credited) by $ 7,000" },
+                    { "id": "c", "text": "c. Inventory should be increased (debited) by $ 7,000." },
+                    { "id": "d", "text": "d. Inventory should be increased (debited) by $ 4,000." },
+                    { "id": "e", "text": "e. No adjustment should be made to inventory once it is written down" }
+                ],
+                "correct": "a",
+                "basmaga": "الـ NRV الجديد بقى 32k، بس سقفنا هو التكلفة 30k. إحنا مسجلينه بـ 25k، يعني نرفعه ونزوده بـ 5,000 دولار كحد أقصى.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Inventory should be increased (debited) by $ 5,000.</strong><br><br>الـ NRV الجديد = 34,000 - 2,000 = 32,000. المعيار بيسمح باسترداد الخسارة بحد أقصى التكلفة الأصلية (30,000). المخزون حالياً بـ 25,000، هنرفعه للـ 30,000، يعني نزوده (Debit) بـ 5,000 دولار.",
+                "reference": "l2-acc4",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون ورد الخسارة"
+            },
+            {
+                "id": 23,
+                "text": "A company has a building that cost € 10,000,000, with accumulated depreciation of € 3,000,000 and a carrying amount of € 7,000,000 on December 31, 2025. On that date, a company conducted its first revaluation when the fair value was € 9,000,000. According to IAS 16, what account should be credited for € 2,000,000?",
+                "options": [
+                    { "id": "a", "text": "a. Retained earnings" },
+                    { "id": "b", "text": "b. Revaluation surplus" },
+                    { "id": "c", "text": "c. Gain from revaluation of building" },
+                    { "id": "d", "text": "d. Revaluation revenue" },
+                    { "id": "e", "text": "e. Recovery of loss on revaluation" }
+                ],
+                "correct": "b",
+                "basmaga": "مكسب أول مرة لأصل (من 7 مليون لـ 9 مليون) يروح علطول حصالة حقوق الملكية Revaluation surplus.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Revaluation surplus</strong><br><br>مكسب التقييم لأول مرة بيتم إثباته في حساب الدخل الشامل ويرحل لحصالة الفائض (Revaluation Surplus) في حقوق الملكية.",
+                "reference": "l3-acc3",
+                "reference_title": "المحاضرة الثالثة — نموذج إعادة التقييم"
+            },
+            {
+                "id": 24,
+                "text": "According to IAS 16, a decrease in the carrying amount of a fixed asset that is identified on an asset's first revaluation should be recorded as:",
+                "options": [
+                    { "id": "a", "text": "a. A prior period adjustment to Retained Earnings" },
+                    { "id": "b", "text": "b. A credit to Revaluation Surplus" },
+                    { "id": "c", "text": "c. A debit to Revaluation Surplus." },
+                    { "id": "d", "text": "d. An expense on the Income Statement." },
+                    { "id": "e", "text": "e. Both c and d" }
+                ],
+                "correct": "d",
+                "basmaga": "خسارة أول مرة لأصل معندوش حصالة؟ تترمي فورا مصروف في قائمة الدخل Expense.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) An expense on the Income Statement.</strong><br><br>الخسارة في أول تقييم تسجل كمصروف (Expense) في قائمة الدخل تطبيقاً لمبدأ الحيطة والحذر.",
+                "reference": "l3-acc3",
+                "reference_title": "المحاضرة الثالثة — نموذج إعادة التقييم والخسارة"
+            },
+            {
+                "id": 25,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">ABC Company acquired buildings on January 1, Year 1 at a cost of $ 10 million. The buildings have a five-year life, no residual value, and is depreciated on a straight-line basis. On December 31, Year 2, Company determines the fair value of the buildings to be $15 million and elects to carry them at a revalued amount. Company would restate both the gross buildings account and accumulated depreciation on buildings.</p></div>On December 31, Year 2, what amount should be recorded as revaluation surplus?",
+                "options": [
+                    { "id": "a", "text": "a. $ 9,000,000" },
+                    { "id": "b", "text": "b. $ 15,000,000" },
+                    { "id": "c", "text": "c. $ 6,000,000" },
+                    { "id": "d", "text": "d. $ 10,000,000" },
+                    { "id": "e", "text": "e. $ 25,000,000" }
+                ],
+                "correct": "a",
+                "basmaga": "بعد سنتين الدفترية بقت 6 مليون، والسوق بـ 15 مليون، يبقى الفائض والمكسب الصافي 9 مليون دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) $ 9,000,000</strong><br><br>الإهلاك السنوي = 10 / 5 = 2 مليون. مجمع سنتين = 4 مليون. القيمة الدفترية = 10 - 4 = 6 مليون. القيمة العادلة 15 مليون، المكسب = 15 - 6 = 9 مليون دولار.",
+                "reference": "l3-acc4",
+                "reference_title": "المحاضرة الثالثة — طريقة الإلغاء والتناسب"
+            },
+            {
+                "id": 26,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">ABC Company acquired buildings on January 1, Year 1 at a cost of $ 10 million. The buildings have a five-year life, no residual value, and is depreciated on a straight-line basis. On December 31, Year 2, Company determines the fair value of the buildings to be $15 million and elects to carry them at a revalued amount. Company would restate both the gross buildings account and accumulated depreciation on buildings.</p></div>On December 31, Year 2, journal entry to revalue building and related accumulated depreciation would include a:",
+                "options": [
+                    { "id": "a", "text": "a. Debit Accumulated Depreciation for $ 6,000,000" },
+                    { "id": "b", "text": "b. Debit Accumulated Depreciation for $ 4,000,000" },
+                    { "id": "c", "text": "c. Credit Accumulated Depreciation for $ 6,000,000" },
+                    { "id": "d", "text": "d. Credit Accumulated Depreciation for $ 4,000,000" },
+                    { "id": "e", "text": "e. Credit Accumulated Depreciation for $ 9,000,000" }
+                ],
+                "correct": "c",
+                "basmaga": "بالتناسب (restate): القيمة زادت مرتين ونص (15/6)، المجمع القديم 4 مليون يضرب في 2.5 يبقى 10 مليون (زاد 6 مليون דائن).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Credit Accumulated Depreciation for $ 6,000,000</strong><br><br>بطريقة التناسب (Gross-up)، نسبة الزيادة = 15 / 6 = 2.5. مجمع الإهلاك الجديد = 4M × 2.5 = 10M. الزيادة المطلوبة = 10M - 4M = 6 مليون في الطرف الدائن.",
+                "reference": "l3-acc4",
+                "reference_title": "المحاضرة الثالثة — قيد إعادة التقييم بالتناسب"
+            },
+            {
+                "id": 27,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A company has equipment that cost $ 180,000, with accumulated depreciation of $ 42,000 and a carrying amount of $ 138,000 on December 31, 2025. On that date, A Company determines that the fair value for equipment is 78,000. The equipment had previously been revalued upward by 36,000.</p></div>How should the revaluation surplus be recorded on December 31, 2025?",
+                "options": [
+                    { "id": "a", "text": "a. Credit Revaluation surplus for $ 60,000" },
+                    { "id": "b", "text": "b. Debit Revaluation surplus for $ 60,000" },
+                    { "id": "c", "text": "c. Credit Revaluation surplus for $ 36,000" },
+                    { "id": "d", "text": "d. Debit Revaluation surplus for $ 42,000" },
+                    { "id": "e", "text": "e. Debit Revaluation surplus for $ 36,000" }
+                ],
+                "correct": "e",
+                "basmaga": "خسرنا 60 ألف وعندنا حصالة فيها 36 ألف، نقفل الحصالة وناكلها كلها فنجعلها مدين (Debit) بـ 36 ألف.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Debit Revaluation surplus for $ 36,000</strong><br><br>الخسارة الكلية = 138,000 - 78,000 = 60,000. نأكل من الفائض القديم (36,000) بالكامل لنجعله مدين (Debit).",
+                "reference": "l3-acc4",
+                "reference_title": "المحاضرة الثالثة — معالجة خسائر التقييم بعد الفائض"
+            },
+            {
+                "id": 28,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A company has equipment that cost $ 180,000, with accumulated depreciation of $ 42,000 and a carrying amount of $ 138,000 on December 31, 2025. On that date, A Company determines that the fair value for equipment is 78,000. The equipment had previously been revalued upward by 36,000.</p></div>How should the loss on revaluation be recorded on December 31, 2025?",
+                "options": [
+                    { "id": "a", "text": "a. Debit loss on revaluation for $ 24,000" },
+                    { "id": "b", "text": "b. Debit loss on revaluation for $ 60,000" },
+                    { "id": "c", "text": "c. Debit loss on revaluation for $ 36,000" },
+                    { "id": "d", "text": "d. Debit loss on revaluation for $ 78,000" },
+                    { "id": "e", "text": "e. No loss on revaluation" }
+                ],
+                "correct": "a",
+                "basmaga": "الخسارة 60، غطينا 36 من الحصالة، الباقي العريان 24 يترمي كخسارة صريحة مدين في قائمة الدخل.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Debit loss on revaluation for $ 24,000</strong><br><br>الخسارة المتبقية بعد نفاذ الفائض القديم (60,000 - 36,000 = 24,000) تُسجل كمصروف (Loss) في قائمة الدخل.",
+                "reference": "l3-acc4",
+                "reference_title": "المحاضرة الثالثة — معالجة خسائر التقييم بعد الفائض"
+            },
+            {
+                "id": 29,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">A company has equipment that cost $ 180,000, with accumulated depreciation of $ 42,000 and a carrying amount of $ 138,000 on December 31, 2025. On that date, A Company determines that the fair value for equipment is 78,000. The equipment had previously been revalued upward by 36,000.</p></div>Assume the fair value of equipment is $ 105,000, how should the revaluation surplus be recorded on December 31, 2025?",
+                "options": [
+                    { "id": "a", "text": "a. Credit Revaluation surplus for $ 33,000" },
+                    { "id": "b", "text": "b. Debit Revaluation surplus for $ 75,000" },
+                    { "id": "c", "text": "c. Credit Revaluation surplus for $ 36,000" },
+                    { "id": "d", "text": "d. Debit Revaluation surplus for $ 33,000" },
+                    { "id": "e", "text": "e. Debit Revaluation surplus for $ 36,000" }
+                ],
+                "correct": "d",
+                "basmaga": "الخسارة بقت 33 ألف (138 - 105)، والحصالة فيها 36، هنأكل منها 33 بس يعني نجعلها مدين بـ 33.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Debit Revaluation surplus for $ 33,000</strong><br><br>إذا كانت القيمة العادلة 105,000، فالخسارة تكون (138,000 - 105,000) = 33,000. نأخذ هذه الخسارة بالكامل من الفائض القديم بخصم 33,000 كطرف مدين.",
+                "reference": "l3-acc4",
+                "reference_title": "المحاضرة الثالثة — معالجة خسائر التقييم بعد الفائض"
+            },
+            {
+                "id": 30,
+                "text": "Which of the following inventory valuation methods is acceptable under International Financial Reporting Standards (IFRS)?",
+                "options": [
+                    { "id": "a", "text": "a. Weighted-average cost" },
+                    { "id": "b", "text": "b. Retail inventory method" },
+                    { "id": "c", "text": "c. FIFO" },
+                    { "id": "d", "text": "d. LIFO" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "e",
+                "basmaga": "الدولي (IFRS) بيسمح بالفايفو والمتوسط بس، وبيرفض الـ LIFO نهائياً.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and c</strong><br><br>المعايير الدولية تقبل الـ FIFO والـ Weighted-average cost وترفض تماماً طريقة الـ LIFO.",
+                "reference": "l2-acc3",
+                "reference_title": "المحاضرة الثانية — طرق تقييم المخزون المسموحة"
+            },
+            {
+                "id": 31,
+                "text": "Use the following choices to answer the next 3 questions:\na. Acquisition\nb. Cross-listing\nc. Greenfield investment\nd. Harmonization\ne. Convergence\n\n.... occurs when a company lists its shares on one or more foreign stock exchanges in addition to the domestic stock exchange.",
+                "options": [
+                    { "id": "a", "text": "a. Acquisition" },
+                    { "id": "b", "text": "b. Cross-listing" },
+                    { "id": "c", "text": "c. Greenfield investment" },
+                    { "id": "d", "text": "d. Harmonization" },
+                    { "id": "e", "text": "e. Convergence" }
+                ],
+                "correct": "b",
+                "basmaga": "قيد أسهمك في بورصات أجنبية بجانب البورصة المحلية اسمه القيد المزدوج Cross-listing.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Cross-listing</strong><br><br>القيد المزدوج (Cross-listing) هو عرض أسهم الشركة في بورصة محلية وأخرى أجنبية لزيادة التمويل وتحسين السمعة.",
+                "reference": "l1-acc5",
+                "reference_title": "المحاضرة الأولى — القيد المزدوج بالبورصات"
+            },
+            {
+                "id": 32,
+                "text": "Use the following choices to answer the next 3 questions:\na. Acquisition\nb. Cross-listing\nc. Greenfield investment\nd. Harmonization\ne. Convergence\n\n.... is the process of the adoption of one set of standards internationally.",
+                "options": [
+                    { "id": "a", "text": "a. Acquisition" },
+                    { "id": "b", "text": "b. Cross-listing" },
+                    { "id": "c", "text": "c. Greenfield investment" },
+                    { "id": "d", "text": "d. Harmonization" },
+                    { "id": "e", "text": "e. Convergence" }
+                ],
+                "correct": "e",
+                "basmaga": "تبني معايير واحدة (one set of standards) ده توحيد وتقارب كلي Convergence.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Convergence</strong><br><br>التقارب الكامل (Convergence) معناه أن يتبنى العالم مجموعة واحدة من المعايير المحاسبية الموحدة.",
+                "reference": "l2-acc2",
+                "reference_title": "المحاضرة الثانية — التوافق والتقارب الدولي"
+            },
+            {
+                "id": 33,
+                "text": "Use the following choices to answer the next 3 questions:\na. Acquisition\nb. Cross-listing\nc. Greenfield investment\nd. Harmonization\ne. Convergence\n\n.... is a foreign direct investment whereby a new facility is constructed abroad.",
+                "options": [
+                    { "id": "a", "text": "a. Acquisition" },
+                    { "id": "b", "text": "b. Cross-listing" },
+                    { "id": "c", "text": "c. Greenfield investment" },
+                    { "id": "d", "text": "d. Harmonization" },
+                    { "id": "e", "text": "e. Convergence" }
+                ],
+                "correct": "c",
+                "basmaga": "بناء مصنع جديد من تحت الصفر (new facility) ده استثمار الجرينفيلد Greenfield.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Greenfield investment</strong><br><br>استثمار الـ Greenfield هو إنشاء عمليات جديدة كلياً في بلد أجنبي بدلاً من الاستحواذ على منشأة قائمة.",
+                "reference": "l1-acc3",
+                "reference_title": "المحاضرة الأولى — أنواع الاستثمار الأجنبي المباشر"
+            },
+            {
+                "id": 34,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">The following information was taken from the fixed asset records of ABC company as of December 31, 2025:</p><ul><li>Carrying value $ 150,000</li><li>Selling price $ 128,000</li><li>Cost of disposal $ 4,000</li><li>Expected future cash flow $ 154,000</li><li>Present value of expected future cash flow $ 95,000</li></ul></div>Under IAS 36, what is the recoverable amount?",
+                "options": [
+                    { "id": "a", "text": "a. $ 128,000" },
+                    { "id": "b", "text": "b. $ 95,000" },
+                    { "id": "c", "text": "c. $ 154,000" },
+                    { "id": "d", "text": "d. $ 124,000" },
+                    { "id": "e", "text": "e. $ 150,000" }
+                ],
+                "correct": "d",
+                "basmaga": "الأكبر بين (128 - 4) و (95) هو 124 ألف دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 124,000</strong><br><br>القيمة الاستردادية هي القيمة الأكبر بين صافي سعر البيع (128,000 - 4,000 = 124,000) والقيمة قيد الاستخدام المخصومة (95,000).",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — الاضمحلال والقيمة الاستردادية"
+            },
+            {
+                "id": 35,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">The following information was taken from the fixed asset records of ABC company as of December 31, 2025:</p><ul><li>Carrying value $ 150,000</li><li>Selling price $ 128,000</li><li>Cost of disposal $ 4,000</li><li>Expected future cash flow $ 154,000</li><li>Present value of expected future cash flow $ 95,000</li></ul></div>Under IAS 36, what is the amount of Impairment Loss?",
+                "options": [
+                    { "id": "a", "text": "a. $ 22,000" },
+                    { "id": "b", "text": "b. $ 26,000" },
+                    { "id": "c", "text": "c. $ 55,000" },
+                    { "id": "d", "text": "d. $ 4,000" },
+                    { "id": "e", "text": "e. Zero" }
+                ],
+                "correct": "b",
+                "basmaga": "الخسارة = الدفترية (150) ناقص الاستردادية (124) تطلع 26 ألف خسارة.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) $ 26,000</strong><br><br>خسارة الاضمحلال = القيمة الدفترية - القيمة الاستردادية = 150,000 - 124,000 = 26,000 دولار.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — حساب خسارة الاضمحلال"
+            },
+            {
+                "id": 36,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">The following information was taken from the fixed asset records of ABC company as of December 31, 2025:</p><ul><li>Carrying value $ 150,000</li><li>Selling price $ 128,000</li><li>Cost of disposal $ 4,000</li><li>Expected future cash flow $ 154,000</li><li>Present value of expected future cash flow $ 95,000</li></ul></div>Under U.S GAAP, what is the amount of Impairment Loss?",
+                "options": [
+                    { "id": "a", "text": "a. $ 22,000" },
+                    { "id": "b", "text": "b. $ 26,000" },
+                    { "id": "c", "text": "c. $ 55,000" },
+                    { "id": "d", "text": "d. $ 4,000" },
+                    { "id": "e", "text": "e. Zero" }
+                ],
+                "correct": "e",
+                "basmaga": "الأمريكان بيقارنوا التدفقات غير المخصومة (154) بالدفترية (150)، طالما الفلوس المتوقعة أكبر يبقى مفيش اضمحلال (Zero).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Zero</strong><br><br>تحت المعايير الأمريكية، نختبر الاضمحلال بمقارنة القيمة الدفترية مع التدفقات المستقبلية غير المخصومة (Undiscounted). 154,000 > 150,000، لذا لا يوجد اضمحلال.",
+                "reference": "l4-acc3",
+                "reference_title": "المحاضرة الرابعة — الاضمحلال تحت المعايير الأمريكية"
+            },
+            {
+                "id": 37,
+                "text": "Differences in legal systems are considered one reason for diversity in accounting practice. What are the major types of legal systems?",
+                "options": [
+                    { "id": "a", "text": "a. Written law and unwritten law" },
+                    { "id": "b", "text": "b. Common law and code law" },
+                    { "id": "c", "text": "c. Rules and regulations" },
+                    { "id": "d", "text": "d. Code law and accounting law" },
+                    { "id": "e", "text": "e. Commercial law and accounting law" }
+                ],
+                "correct": "b",
+                "basmaga": "النظامين الكبار في العالم هما القانون العام والقانون المدني (Common and code law).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Common law and code law</strong><br><br>القانون العام يعتمد على المرونة والأحكام، بينما القانون المدني يعتمد على التشريعات المكتوبة الصارمة.",
+                "reference": "l2-acc1",
+                "reference_title": "المحاضرة الثانية — الأنظمة القانونية"
+            },
+            {
+                "id": 38,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/non-current method\nc. The current rate method\nd. The monetary/non-monetary method\ne. Both a and c\n\nTranslation adjustment is treated as a component of the other comprehensive income on the consolidated balance sheet under:",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/non-current method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/non-monetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "c",
+                "basmaga": "اللي بترمي فرق الترجمة في حقوق الملكية OCI هي الطريقة السهلة (Current rate method).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The current rate method</strong><br><br>طريقة المعدل الجاري تعتبر فرق الترجمة كجزء من الدخل الشامل (OCI) في الميزانية، وليس كربح/خسارة في قائمة الدخل.",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — طرق الترجمة وفروقها"
+            },
+            {
+                "id": 39,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/non-current method\nc. The current rate method\nd. The monetary/non-monetary method\ne. Both a and c\n\nIf the functional currency is the parent's currency, the appropriate translation method for foreign currency financial statements is:",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/non-current method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/non-monetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "a",
+                "basmaga": "عُملة الأم هي الوظيفية؟ يبقى هنشتغل بالطريقة الزمنية Temporal method المعقدة.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) The temporal method.</strong><br><br>إذا كانت العملة الوظيفية للفرع هي عملة الشركة الأم، نستخدم الطريقة الزمنية (Remeasurement / Temporal Method).",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — اختيار طرق الترجمة"
+            },
+            {
+                "id": 40,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/non-current method\nc. The current rate method\nd. The monetary/non-monetary method\ne. Both a and c\n\nThe translation method for foreign currency financial statements that is acceptable under IFRS is:",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/non-current method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/non-monetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "e",
+                "basmaga": "الـ IFRS بيلغي الطرق القديمة، ومبيوافقش غير على الجاري والزمني (Both a and c).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and c</strong><br><br>المعايير الدولية (IAS 21) تعتمد فقط على طريقة المعدل الجاري والطريقة الزمنية، ولا تقبل الطرق الكلاسيكية الأخرى.",
+                "reference": "l9-acc2",
+                "reference_title": "المحاضرة التاسعة — الطرق المعتمدة"
+            },
+            {
+                "id": 41,
+                "text": "Which of the following statements is NOT true?",
+                "options": [
+                    { "id": "a", "text": "a. Accounts translated at the current exchange rate are subject to balance sheet exposure." },
+                    { "id": "b", "text": "b. Accounts translated at the historical exchange rate are subject to balance sheet exposure." },
+                    { "id": "c", "text": "c. Accounts translated at the forward exchange rate are subject to balance sheet exposure." },
+                    { "id": "d", "text": "d. Exposure to translation adjustment is commonly referred to as balance sheet exposure." },
+                    { "id": "e", "text": "e. Both b and c" }
+                ],
+                "correct": "e",
+                "basmaga": "البنود التاريخية (Historical) متأمنة ومش عريانة لخطر الميزانية، إذن b و c غلط.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both b and c</strong><br><br>خطر التعرض المحاسبي ينطبق فقط على البنود المترجمة بالسعر الجاري المتغير، أما البنود التاريخية فلا تتأثر بتقلبات سعر الصرف اللاحقة.",
+                "reference": "l9-acc1", "reference_title": "المحاضرة التاسعة — التعرض المحاسبي"
+            },
+            {
+                "id": 42,
+                "text": "Which of the following items is normally translated the same way under both the current rate and temporal methods of translation?",
+                "options": [
+                    { "id": "a", "text": "a. Dividends" },
+                    { "id": "b", "text": "b. Equipment" },
+                    { "id": "c", "text": "c. Patent" },
+                    { "id": "d", "text": "d. Depreciation expense" },
+                    { "id": "e", "text": "e. Goodwill" }
+                ],
+                "correct": "a",
+                "basmaga": "التوزيعات (Dividends) دايماً بتنضرب في السعر التاريخي بتاع يوم الإعلان في الطريقتين.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Dividends</strong><br><br>توزيعات الأرباح تُترجم دائماً بالسعر التاريخي (يوم إعلانها) بغض النظر عن طريقة الترجمة المستخدمة.",
+                "reference": "l9-acc2", "reference_title": "المحاضرة التاسعة — جدول أسعار الترجمة"
+            },
+            {
+                "id": 43,
+                "text": "Use the following choices to answer the next 3 questions:\na. The current rate\nb. The historical rate\nc. The average rate\nd. The forward rate\ne. No single exchange rate\n\nUnder the current rate method of translating foreign currency financial statements, the cost of goods sold is translated at:",
+                "options": [
+                    { "id": "a", "text": "a. The current rate" },
+                    { "id": "b", "text": "b. The historical rate" },
+                    { "id": "c", "text": "c. The average rate" },
+                    { "id": "d", "text": "d. The forward rate" },
+                    { "id": "e", "text": "e. No single exchange rate" }
+                ],
+                "correct": "c",
+                "basmaga": "طريقة المعدل الجاري بتتعامل مع الـ COGS كأي مصروف عادي وبتاخد Average rate.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The average rate</strong><br><br>تحت طريقة المعدل الجاري، جميع الإيرادات والمصروفات (بما فيها تكلفة المبيعات) تُترجم باستخدام متوسط سعر الصرف للفترة.",
+                "reference": "l9-acc2", "reference_title": "المحاضرة التاسعة — ترجمة المصروفات"
+            },
+            {
+                "id": 44,
+                "text": "Use the following choices to answer the next 3 questions:\na. The current rate\nb. The historical rate\nc. The average rate\nd. The forward rate\ne. No single exchange rate\n\nUnder the temporal method of translating foreign currency financial statements, the prepaid expenses is translated at:",
+                "options": [
+                    { "id": "a", "text": "a. The current rate" },
+                    { "id": "b", "text": "b. The historical rate" },
+                    { "id": "c", "text": "c. The average rate" },
+                    { "id": "d", "text": "d. The forward rate" },
+                    { "id": "e", "text": "e. No single exchange rate" }
+                ],
+                "correct": "b",
+                "basmaga": "المصاريف المقدمة في الطريقة الزمنية دي أصل غير نقدي مقيم بالتكلفة، يبقى ياخد Historical rate.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) The historical rate</strong><br><br>في الطريقة الزمنية، الأصول غير النقدية المسجلة بالتكلفة التاريخية (مثل المصروفات المقدمة) تُترجم بالسعر التاريخي.",
+                "reference": "l9-acc2", "reference_title": "المحاضرة التاسعة — جدول أسعار الترجمة"
+            },
+            {
+                "id": 45,
+                "text": "Use the following choices to answer the next 3 questions:\na. The current rate\nb. The historical rate\nc. The average rate\nd. The forward rate\ne. No single exchange rate\n\nUnder the temporal method of translating foreign currency financial statements, the cost of goods sold is translated at:",
+                "options": [
+                    { "id": "a", "text": "a. The current rate" },
+                    { "id": "b", "text": "b. The historical rate" },
+                    { "id": "c", "text": "c. The average rate" },
+                    { "id": "d", "text": "d. The forward rate" },
+                    { "id": "e", "text": "e. No single exchange rate" }
+                ],
+                "correct": "e",
+                "basmaga": "الـ COGS في الزمنية معقدة لازم تتفكك لـ (مخزون أول، مشتريات، مخزون آخر) كل واحدة بسعر شكل، مفيش سعر واحد موحد.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) No single exchange rate</strong><br><br>تحت الطريقة الزمنية لا يوجد سعر صرف واحد للـ COGS؛ يتم حسابها عن طريق ترجمة كل مكون من مكوناتها بشكل منفصل.",
+                "reference": "l9-acc3", "reference_title": "المحاضرة التاسعة — تعقيدات ترجمة الـ COGS"
+            },
+            {
+                "id": 46,
+                "text": "Which of the following items would be restated using the current exchange rate under the temporal method?",
+                "options": [
+                    { "id": "a", "text": "a. Inventory carried at cost" },
+                    { "id": "b", "text": "b. Amortization expense" },
+                    { "id": "c", "text": "c. Sales revenue" },
+                    { "id": "d", "text": "d. Cash" },
+                    { "id": "e", "text": "e. Land" }
+                ],
+                "correct": "d",
+                "basmaga": "النقدية (Cash) دايماً أصل نقدي بياخد السعر الجاري (Current rate) في الطريقتين.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Cash</strong><br><br>الأصول النقدية مثل النقدية وحسابات العملاء تترجم بالسعر الجاري (Current Exchange Rate) في الطريقة الزمنية.",
+                "reference": "l9-acc2", "reference_title": "المحاضرة التاسعة — جدول أسعار الترجمة"
+            },
+            {
+                "id": 47,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">A Spanish subsidiary of U.S. company has certain expenses accounts for the year ended December 31, 2025, stated in Euro as follows: Depreciation expense (related to asset was acquired on May 15, 2025) is € 400,000, Selling and administrative expenses are € 300,000, and Interest expense is € 500,000. Relevant exchange rates as follows: January 1, 2025 $ 1.23, May 15, 2025 $ 1.20, December 31, 2025 $ 1.18, Average for the year $ 1.15.</p></div>Under the temporal method, the total amount that should be included in consolidated income statement for the expenses listed is:",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,476,000" },
+                    { "id": "b", "text": "b. $ 1,380,000" },
+                    { "id": "c", "text": "c. $ 1,424,000" },
+                    { "id": "d", "text": "d. $ 1,400,000" },
+                    { "id": "e", "text": "e. $ 1,416,000" }
+                ],
+                "correct": "d",
+                "basmaga": "الزمنية بتفرق! إهلاك (400×1.20 تاريخي) + مصروفات (300×1.15 متوسط) + فايدة (500×1.15 متوسط) = 1,400,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 1,400,000</strong><br><br>تحت الطريقة الزمنية: الإهلاك يترجم بالسعر التاريخي للأصل (1.20) = 480,000. المصاريف العادية (البيع والفائدة) بالمتوسط (1.15) = 345,000 + 575,000. المجموع = 1,400,000 دولار.",
+                "reference": "l9-acc3", "reference_title": "المحاضرة التاسعة — ترجمة المصروفات"
+            },
+            {
+                "id": 48,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">A Spanish subsidiary of U.S. company has certain expenses accounts for the year ended December 31, 2025, stated in Euro as follows: Depreciation expense (related to asset was acquired on May 15, 2025) is € 400,000, Selling and administrative expenses are € 300,000, and Interest expense is € 500,000. Relevant exchange rates as follows: January 1, 2025 $ 1.23, May 15, 2025 $ 1.20, December 31, 2025 $ 1.18, Average for the year $ 1.15.</p></div>Under the current rate method, the total amount that should be included in consolidated income statement for the expenses listed is:",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,476,000" },
+                    { "id": "b", "text": "b. $ 1,380,000" },
+                    { "id": "c", "text": "c. $ 1,424,000" },
+                    { "id": "d", "text": "d. $ 1,400,000" },
+                    { "id": "e", "text": "e. $ 1,416,000" }
+                ],
+                "correct": "b",
+                "basmaga": "الطريقة الجارية سهلة: اجمع كل المصاريف (1200 يورو) واضربها في المتوسط 1.15 = 1,380,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) $ 1,380,000</strong><br><br>تحت طريقة المعدل الجاري، جميع المصروفات تترجم بمتوسط سعر الصرف. الإجمالي = (400k + 300k + 500k) × 1.15 = 1,380,000 دولار.",
+                "reference": "l9-acc3", "reference_title": "المحاضرة التاسعة — ترجمة المصروفات"
+            },
+            {
+                "id": 49,
+                "text": "Which of the following methods for translating foreign currency financial statements attempts to produce consolidated financial statements as if a subsidiary had actually used the parent company's currency for all its transactions?",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/non-current method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/non-monetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "a",
+                "basmaga": "فلسفة \"كأن الفرع شغال بعُملة الشركة الأم من البداية\" هي فلسفة الطريقة الزمنية (Temporal Method).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) The temporal method.</strong><br><br>الهدف النظري للطريقة الزمنية هو قياس القوائم كأن المعاملات تمت بعُملة الشركة الأم من البداية.",
+                "reference": "l9-acc2", "reference_title": "المحاضرة التاسعة — فلسفة الترجمة"
+            },
+            {
+                "id": 50,
+                "text": "According to IAS 21, the functional currency is defined as:",
+                "options": [
+                    { "id": "a", "text": "a. The currency in which the entity prepares its financial statements" },
+                    { "id": "b", "text": "b. The primary currency used by the parent company" },
+                    { "id": "c", "text": "c. The currency of the primary economic environment in which a subsidiary operates." },
+                    { "id": "d", "text": "d. The currency that minimizes the translation adjustment on the consolidated financial statements" },
+                    { "id": "e", "text": "e. The currency that minimizes foreign exchange risk" }
+                ],
+                "correct": "c",
+                "basmaga": "العُملة الوظيفية هي عُملة البيئة الاقتصادية اللي الفرع بياكل منها عيش (Primary economic environment).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The currency of the primary economic environment in which a subsidiary operates.</strong><br><br>تُعرّف العُملة الوظيفية بأنها عُملة البيئة الاقتصادية الأساسية التي يعمل فيها الكيان ويولد وينفق فيها النقدية.",
+                "reference": "l9-acc4", "reference_title": "المحاضرة التاسعة — العملة الوظيفية"
+            }
+        ]
+    },
+    
+    "credit_2025_exam": {
+        "title": "امتحان Credit 2025 الشامل",
+        "description": "بسم الله وأبدأ — حل امتحان الميدتيرم/الفاينال لعام 2025 الخاص ببرنامج الساعات المعتمدة",
+        "questions": [
+            {
+                "id": 1,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>How should the option be recorded on May 1, 2023?",
+                "options": [
+                    { "id": "a", "text": "a. Debit foreign currency option for $201,000." },
+                    { "id": "b", "text": "b. Debit foreign currency option for $1,000." },
+                    { "id": "c", "text": "c. Credit foreign currency option for $1,000." },
+                    { "id": "d", "text": "d. Credit foreign currency option for $201,000." },
+                    { "id": "e", "text": "e. Debit hedge expense for $1,000." }
+                ],
+                "correct": "b",
+                "basmaga": "قيمة القسط اللي دفعناه هو الأصل.. اضرب 100 ألف في 0.01 تطلع 1000 مدين كأصل.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Debit foreign currency option for $1,000.</strong><br><br>يوم شراء العقد، بنسجل القيمة اللي دفعناها كـ (قسط Premium) كأصل مدين في الدفاتر. القسط = 100,000 باوند × 0.01 = 1,000 دولار. إذن (Debit foreign currency option) بـ 1,000.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — عقود الخيارات والقسط الأولي"
+            },
+            {
+                "id": 2,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>What is the time value of the option on May 1, 2023?",
+                "options": [
+                    { "id": "a", "text": "a. $100,000" },
+                    { "id": "b", "text": "b. $1,000" },
+                    { "id": "c", "text": "c. Zero" },
+                    { "id": "d", "text": "d. $201,000" },
+                    { "id": "e", "text": "e. $199,000" }
+                ],
+                "correct": "b",
+                "basmaga": "طالما السعر الفوري هو هو سعر العقد، يبقى القيمة الجوهرية صفر، والقسط كله (1000) بيروح للقيمة الزمنية Time value.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) $1,000</strong><br><br>قسط العقد = القيمة الجوهرية + القيمة الزمنية. بما أن سعر العقد (Strike) يساوي السعر الفوري (Spot) يعني القيمة الجوهرية صفر، إذن القسط بالكامل (1,000 دولار) يمثل القيمة الزمنية (Time value).",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — فصل قيم الخيارات"
+            },
+            {
+                "id": 3,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 3 questions:</p><p class=\"mb-2\">On May 1, 2023, U.S. company purchased a put option to sell £100,000 on April 30, 2024 at a strike price equal to $2, which was the spot rate on May 1, 2023. U.S. company paid a premium of $0.01 per pound.</p></div>What is the intrinsic value of the option on May 1, 2023?",
+                "options": [
+                    { "id": "a", "text": "a. $100,000" },
+                    { "id": "b", "text": "b. $1,000" },
+                    { "id": "c", "text": "c. Zero" },
+                    { "id": "d", "text": "d. $201,000" },
+                    { "id": "e", "text": "e. $199,000" }
+                ],
+                "correct": "c",
+                "basmaga": "سعر التنفيذ (2) يطابق السعر الفوري (2) بالمليم، مفيش أي مكسب فوري يعني القيمة الجوهرية Zero.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Zero</strong><br><br>القيمة الجوهرية (Intrinsic Value) هي المكسب من التنفيذ الفوري. وبما أن سعر التنفيذ (2 دولار) يطابق السعر الفوري (2 دولار)، فلا يوجد أي مكسب، وبالتالي تكون القيمة الجوهرية صفراً.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — فصل قيم الخيارات"
+            },
+            {
+                "id": 4,
+                "text": "What is the term used to indicate the amount for which an asset could be exchanged between knowledgeable, willing parties in an arm's length transaction?",
+                "options": [
+                    { "id": "a", "text": "a. Historical cost" },
+                    { "id": "b", "text": "b. Replacement cost" },
+                    { "id": "c", "text": "c. Fair value" },
+                    { "id": "d", "text": "d. Value in use" },
+                    { "id": "e", "text": "e. Net realizable value" }
+                ],
+                "correct": "c",
+                "basmaga": "أطراف راضية وفاهمة arm's length، ده التعريف الأكاديمي للقيمة العادلة Fair value.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Fair value</strong><br><br>القيمة العادلة (Fair Value) هي سعر التبادل للأصول أو الالتزامات بين أطراف واعية ومستقلة في سوق حر (Arm's length transaction).",
+                "reference": "l3-acc2",
+                "reference_title": "المحاضرة الثالثة — مفاهيم التقييم"
+            },
+            {
+                "id": 5,
+                "text": "What term is used to describe the gain on the option if it was exercised immediately?",
+                "options": [
+                    { "id": "a", "text": "a. The time value" },
+                    { "id": "b", "text": "b. The intrinsic value" },
+                    { "id": "c", "text": "c. Option premium" },
+                    { "id": "d", "text": "d. The strike price" },
+                    { "id": "e", "text": "e. The fair value" }
+                ],
+                "correct": "b",
+                "basmaga": "مكسب التنفيذ الفوري (exercised immediately) هو صميم وجوهر العقد، يعني القيمة الجوهرية Intrinsic value.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) The intrinsic value</strong><br><br>القيمة الجوهرية (Intrinsic Value) تُعرّف بأنها المكسب الفوري أو الصافي الذي يمكن تحقيقه إذا تم تنفيذ خيار العملة في اللحظة الحالية.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — مفاهيم خيارات العملة"
+            },
+            {
+                "id": 6,
+                "text": "....... is the currency of the primary economic environment in which the subsidiary operates.",
+                "options": [
+                    { "id": "a", "text": "a. The reporting currency" },
+                    { "id": "b", "text": "b. The foreign currency" },
+                    { "id": "c", "text": "c. The domestic currency" },
+                    { "id": "d", "text": "d. The national currency" },
+                    { "id": "e", "text": "e. The functional currency" }
+                ],
+                "correct": "e",
+                "basmaga": "عُملة البيئة الاقتصادية الأساسية primary economic environment هي العُملة الوظيفية Functional currency.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) The functional currency</strong><br><br>التعريف الأكاديمي للعملة الوظيفية (Functional Currency) بموجب معيار IAS 21 هو عُملة البيئة الاقتصادية الأساسية التي يعمل فيها الكيان ويولد وينفق فيها النقدية.",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — محددات العملة الوظيفية"
+            },
+            {
+                "id": 7,
+                "text": "Which of the following items is normally translated the same way under both the current rate and temporal methods of translation?",
+                "options": [
+                    { "id": "a", "text": "a. Inventory" },
+                    { "id": "b", "text": "b. Equipment" },
+                    { "id": "c", "text": "c. Depreciation expense" },
+                    { "id": "d", "text": "d. Goodwill" },
+                    { "id": "e", "text": "e. Sales revenue" }
+                ],
+                "correct": "e",
+                "basmaga": "إيراد المبيعات Sales revenue دايماً بيضرب في متوسط السعر Average rate في الطريقتين.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Sales revenue</strong><br><br>إيراد المبيعات (Sales Revenue) يُترجم دائماً باستخدام متوسط سعر الصرف (Average rate) سواء كنت بتستخدم طريقة المعدل الجاري أو الطريقة الزمنية.",
+                "reference": "l9-acc2",
+                "reference_title": "المحاضرة التاسعة — جدول أسعار الصرف"
+            },
+            {
+                "id": 8,
+                "text": "Which items in the balance sheet are subject to accounting exposure?",
+                "options": [
+                    { "id": "a", "text": "a. Only assets." },
+                    { "id": "b", "text": "b. Only liabilities and owners' equity" },
+                    { "id": "c", "text": "c. Only liabilities" },
+                    { "id": "d", "text": "d. All accounts translated at historical exchange rates" },
+                    { "id": "e", "text": "e. All accounts translated at current exchange rates" }
+                ],
+                "correct": "e",
+                "basmaga": "أي حساب بينضرب في السعر المتغير بتاع النهارده Current exchange rate بيبقى معرض لخطر الصرف.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) All accounts translated at current exchange rates</strong><br><br>خطر التعرض المحاسبي (Accounting Exposure) ينطبق حصرياً على الأصول والالتزامات التي تُترجم بسعر الصرف الجاري (Current exchange rate) لأن قيمتها تتغير مع كل ميزانية، عكس البنود التاريخية الثابتة.",
+                "reference": "l9-acc1",
+                "reference_title": "المحاضرة التاسعة — التعرض المحاسبي"
+            },
+            {
+                "id": 9,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>How should U.S. company report the forward contract on December 31, Year 1?",
+                "options": [
+                    { "id": "a", "text": "a. asset $ 10,000" },
+                    { "id": "b", "text": "b. liability, $10,000" },
+                    { "id": "c", "text": "c. asset $ 9,706" },
+                    { "id": "d", "text": "d. liability $ 9,706" },
+                    { "id": "e", "text": "e. asset, $1,375,000" }
+                ],
+                "correct": "d",
+                "basmaga": "عاقدين نبيع رخيص للبنك بـ 1.375 والسعر الآجل رفع لـ 1.385، يعني خسرانين قرش. الخسارة 10k اضربها في المخصوم 0.9706 تطلع 9,706 التزام دائن liability.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) liability $ 9,706</strong><br><br>إحنا عاقدين نبيع للبنك بـ 1.375 والسعر الآجل في السوق زاد لـ 1.385، يعني هنبيع للبنك أرخص من السوق (خسارة). الخسارة الكلية = (1.375 - 1.385) × 1,000,000 = -10,000 دولار. بنضرب الخسارة في القيمة الحالية (0.9706) = -9,706 دولار كالتزام (Liability).",
+                "reference": "l7-acc3",
+                "reference_title": "المحاضرة السابعة — تقييم عقود التدفقات النقدية"
+            },
+            {
+                "id": 10,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>The journal entry at December 31, Year 1, to record the fair value of forward contract would include",
+                "options": [
+                    { "id": "a", "text": "a. Debit AOCI $10,000." },
+                    { "id": "b", "text": "b. Debit AOCI $9,706." },
+                    { "id": "c", "text": "c. Debit loss on forward contract $ 9,706" },
+                    { "id": "d", "text": "d. Credit AOCI $9,706." },
+                    { "id": "e", "text": "e. Credit AOCI $10,000" }
+                ],
+                "correct": "b",
+                "basmaga": "ده Cash flow hedge، وخسرنا 9,706 يبقى الخسارة بتترمي مدين في حصالة الـ AOCI.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Debit AOCI $9,706.</strong><br><br>بما أن العقد مصنف كتحوط تدفقات نقدية (Cash flow hedge)، فإن خسائر تقييم العقد الآجل (-9,706) لا تذهب لقائمة الدخل، بل تُسجل كخسارة غير محققة في الطرف المدين من حساب الدخل الشامل (Debit AOCI).",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — تحوط التدفقات النقدية"
+            },
+            {
+                "id": 11,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>The discount on forward contract is",
+                "options": [
+                    { "id": "a", "text": "a. $ 35,000" },
+                    { "id": "b", "text": "b. $ 45000" },
+                    { "id": "c", "text": "c. Zero" },
+                    { "id": "d", "text": "d. $ 15,000" },
+                    { "id": "e", "text": "e. $ 25,000" }
+                ],
+                "correct": "e",
+                "basmaga": "الخصم بيتحسب يوم التأسيس: الفوري (1.40) ناقص الآجل (1.375) في المليون = 25,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) $ 25,000</strong><br><br>خصم العقد الآجل (Discount) يُحسب في يوم إبرام العقد بخصم السعر الآجل من السعر الفوري: (1.40 - 1.375) = 0.025. 0.025 × 1,000,000 = 25,000 دولار.",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — خصم عقود التحوط"
+            },
+            {
+                "id": 12,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>The journal entry at December 31, Year 1, to adjust the value of accounts receivable would include",
+                "options": [
+                    { "id": "a", "text": "a. Credit foreign exchange gain for $10,000." },
+                    { "id": "b", "text": "b. Credit foreign exchange gain for $20,000." },
+                    { "id": "c", "text": "c. Credit AOCI for $10,000." },
+                    { "id": "d", "text": "d. Credit AOCI for $20,000." },
+                    { "id": "e", "text": "e. Credit foreign exchange gain for $ 9,706" }
+                ],
+                "correct": "b",
+                "basmaga": "العملاء بتطير مع السعر الفوري Spot اللي زاد من 1.40 لـ 1.42 (مكسب قرشين).. اضرب في المليون تطلع 20,000 مكسب دائن.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Credit foreign exchange gain for $20,000.</strong><br><br>حساب العملاء يتم تقييمه دائمًا بالسعر الفوري (Spot rate). ارتفع السعر من 1.40 إلى 1.42. المكسب = (1.42 - 1.40) × 1,000,000 = 20,000 دولار تسجل في الطرف الدائن.",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — تقييم الأصول بالعملة الأجنبية"
+            },
+            {
+                "id": 13,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>What will be the impact of this transaction on U.S. company's net income for December 31 Year 1?",
+                "options": [
+                    { "id": "a", "text": "a. Zero" },
+                    { "id": "b", "text": "b. A $ 1,393,750 increase in income" },
+                    { "id": "c", "text": "c. A $ 1,420,000 increase in income" },
+                    { "id": "d", "text": "d. A $ 1,400,000 increase in income" },
+                    { "id": "e", "text": "e. A $ 1,375,000 increase in income" }
+                ],
+                "correct": "b",
+                "basmaga": "في Cash flow hedge المكسب بيعوض الخسارة.. يتبقى إيراد المبيعات (1.4 مليون) ناقص إهلاك الخصم لشهر واحد (25 ألف / 4 = 6250) = 1,393,750.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) A $ 1,393,750 increase in income</strong><br><br>في تحوط التدفقات النقدية، صافي الدخل يتأثر بـ: المبيعات الأولية (1,000,000 × 1.40 = 1,400,000) مطروحاً منها إهلاك خصم العقد لشهر واحد. الخصم الكلي 25,000 يوزع على 4 أشهر = 6,250 للشهر. صافي الأثر = 1,400,000 - 6,250 = 1,393,750 زيادة.",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — أثر التدفقات النقدية على الدخل"
+            },
+            {
+                "id": 14,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 6 questions:</p><p class=\"mb-2\">A U.S. company sold parts to an Italian customer on December 1, Year 1, with payment of € 1,000,000 to be received on March 31, Year 2. On December 1, Year 1, a U.S.-based company entered into a four-month forward contract to sell € 1,000,000 on March 31, Year 2. U.S. company designates the forward contract as a <strong>cash flow hedge</strong>:</p><ul><li>December 1, Year 1: Spot rate $ 1.40, Forward rate (to 3/31/Y2) $ 1.375</li><li>December 31, Year 1: Spot rate $ 1.42, Forward rate $ 1.385</li><li>March 31, Year 2: Spot rate $ 1.37</li></ul><p class=\"mb-2\">The present value factor for three months at an annual interest rate of 12 percent (1 percent per month) is 0.9706.</p></div>The journal entry at March 31, Year 2, to adjust the fair value of forward contract would include",
+                "options": [
+                    { "id": "a", "text": "a. Credit AOCI for $ 5,000." },
+                    { "id": "b", "text": "b. Credit AOCI for $14,706." },
+                    { "id": "c", "text": "c. Debit AOCI for $ 5,000." },
+                    { "id": "d", "text": "d. Debit AOCI for $14,706." },
+                    { "id": "e", "text": "e. No entry is required" }
+                ],
+                "correct": "b",
+                "basmaga": "في مارس العقد قلب كسبان +5000، وكان متسجل سالب 9706.. الفرق بينهم يدينا تعديل إيجابي دائن بـ 14,706 يروح AOCI.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Credit AOCI for $14,706.</strong><br><br>في تاريخ التنفيذ (31 مارس)، قيمة العقد النهائية = (1.375 سعر العقد - 1.37 السعر الفوري) × 1,000,000 = +5,000 كأصل. كنا قد سجلناه في ديسمبر كالتزام -9,706. لتعديله من -9,706 إلى +5,000، نرفعه بـ 14,706 دائن (Credit AOCI).",
+                "reference": "l7-acc4",
+                "reference_title": "المحاضرة السابعة — تسوية عقود التحوط في تاريخ التنفيذ"
+            },
+            {
+                "id": 15,
+                "text": "What term is used to describe the circumstances under which U.S Corporation is entering the forward contract?",
+                "options": [
+                    { "id": "a", "text": "a. Hedge of an unrecognized foreign currency firm commitment." },
+                    { "id": "b", "text": "b. Hedge of a recognized foreign-currency-denominated asset" },
+                    { "id": "c", "text": "c. Hedge of a forecast foreign-currency-denominated transaction" },
+                    { "id": "d", "text": "d. Hedge of net investment in foreign operations" },
+                    { "id": "e", "text": "e. The transaction is not hedged" }
+                ],
+                "correct": "b",
+                "basmaga": "عقدنا التحوط في نفس لحظة إثبات البيع وتسجيل العملاء كأصل، يعني بنحمي recognized asset.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Hedge of a recognized foreign-currency-denominated asset</strong><br><br>حينما تدخل الشركة في عقد آجل أو خيار في نفس تاريخ إبرام البيع، فإن الأداة المالية تُستخدم للتحوط ضد أصل مالي معترف به فعلياً في الدفاتر وهو حسابات العملاء (Accounts Receivable).",
+                "reference": "l6-acc1",
+                "reference_title": "المحاضرة السادسة — مفاهيم وأنواع علاقات محاسبة التحوط"
+            },
+            {
+                "id": 16,
+                "text": "What term is used to describe the process of establishing a new business operation in a foreign country?",
+                "options": [
+                    { "id": "a", "text": "a. Greenfield" },
+                    { "id": "b", "text": "b. Acquisition" },
+                    { "id": "c", "text": "c. Cross-listing" },
+                    { "id": "d", "text": "d. Hedging" },
+                    { "id": "e", "text": "e. Transfer pricing" }
+                ],
+                "correct": "a",
+                "basmaga": "تأسيس بيزنس جديد من الصفر وعلى أرض خضراء.. ده استثمار الجرينفيلد Greenfield.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Greenfield</strong><br><br>الاستثمار الأجنبي المباشر الذي يتم فيه بناء منشأة أو شركة جديدة من الصفر في دولة أجنبية يُطلق عليه Greenfield investment.",
+                "reference": "l1-acc3",
+                "reference_title": "المحاضرة الأولى — أنواع الاستثمار الأجنبي المباشر"
+            },
+            {
+                "id": 17,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use The following information to answer the next 2 questions:</p><p class=\"mb-2\">A Spanish subsidiary of a U.S company acquired equipment on January 10, 2024, for € 200,000 when the exchange rate was $1.51/€. Another piece of equipment was acquired on April 5, 2024, for € 250,000 when the exchange rate was $ 1.50 / €. The exchange rate at December 31, 2024 is $1.48/€.</p></div>Under the temporal method, what amount of equipment would be reported on the consolidated balance sheet on December 31, 2024?",
+                "options": [
+                    { "id": "a", "text": "a. $ 666,000" },
+                    { "id": "b", "text": "b. $ 675,000" },
+                    { "id": "c", "text": "c. $ 660,000" },
+                    { "id": "d", "text": "d. $ 677,000" },
+                    { "id": "e", "text": "e. $ 677,500" }
+                ],
+                "correct": "d",
+                "basmaga": "الطريقة الزمنية بتعقدها، اضرب كل آلة في السعر التاريخي بتاع يومها: (200k×1.51) + (250k×1.50) = 677,000.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 677,000</strong><br><br>الطريقة الزمنية تُترجم الأصول الثابتة بالأسعار التاريخية (كل أصل بسعر يوم اقتنائه): الآلة الأولى (200,000 × 1.51 = 302,000) + الآلة الثانية (250,000 × 1.50 = 375,000) = 677,000 دولار.",
+                "reference": "l9-acc5",
+                "reference_title": "المحاضرة التاسعة — الطريقة الزمنية وترجمة الأصول الثابتة"
+            },
+            {
+                "id": 18,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use The following information to answer the next 2 questions:</p><p class=\"mb-2\">A Spanish subsidiary of a U.S company acquired equipment on January 10, 2024, for € 200,000 when the exchange rate was $1.51/€. Another piece of equipment was acquired on April 5, 2024, for € 250,000 when the exchange rate was $ 1.50 / €. The exchange rate at December 31, 2024 is $1.48/€.</p></div>Under the current rate method, what amount of equipment would be reported on the consolidated balance sheet on December 31, 2024?",
+                "options": [
+                    { "id": "a", "text": "a. $ 666,000" },
+                    { "id": "b", "text": "b. $ 675,000" },
+                    { "id": "c", "text": "c. $ 660,000" },
+                    { "id": "d", "text": "d. $ 677,000" },
+                    { "id": "e", "text": "e. $ 677,500" }
+                ],
+                "correct": "a",
+                "basmaga": "طريقة الجاري بتسهلها، اجمع الأصول كلها (450k) واضرب عِمياني في السعر الجاري (1.48) تطلع 666,000.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) $ 666,000</strong><br><br>طريقة المعدل الجاري تُترجم جميع الأصول الثابتة بسعر الصرف الحالي في تاريخ الميزانية: إجمالي المعدات (450,000 يورو) × السعر الجاري (1.48) = 666,000 دولار.",
+                "reference": "l9-acc5",
+                "reference_title": "المحاضرة التاسعة — المعدل الجاري وترجمة الأصول الثابتة"
+            },
+            {
+                "id": 19,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">An Italian subsidiary of U.S. company has certain expenses accounts for the year ended December 31, 2024, stated in Euro as follows: Amortization expense (related to asset was acquired on October 15, 2024) is € 600,000, Interest expense is € 700,000 and income tax expense is € 300,000. Relevant exchange rate as follows:</p><ul><li>January 1, 2024 $ 1.10</li><li>October 15, 2024 $ 1.06</li><li>December 31, 2024 $ 1.04</li><li>Average for the year $ 1.05</li></ul></div>Under the temporal method, the total amount that should be included in consolidated income statement for the expenses listed is:",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,686,000" },
+                    { "id": "b", "text": "b. $ 1,760,000" },
+                    { "id": "c", "text": "c. $ 1,696,000" },
+                    { "id": "d", "text": "d. $ 1,664,000" },
+                    { "id": "e", "text": "e. $ 1,680,000" }
+                ],
+                "correct": "a",
+                "basmaga": "الزمنية بتفرق! إهلاك (600×1.06 تاريخي) + فوائد وضرائب (1000×1.05 متوسط) = 636k + 1050k = 1,686,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) $ 1,686,000</strong><br><br>تحت الطريقة الزمنية: الإطفاء يُترجم بالسعر التاريخي للأصل (1.06) = 636,000. الفوائد والضرائب بالمتوسط (1.05) = (700,000 + 300,000) × 1.05 = 1,050,000. المجموع = 1,686,000 دولار.",
+                "reference": "l9-acc3",
+                "reference_title": "المحاضرة التاسعة — الطريقة الزمنية وترجمة المصروفات"
+            },
+            {
+                "id": 20,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions:</p><p class=\"mb-2\">An Italian subsidiary of U.S. company has certain expenses accounts for the year ended December 31, 2024, stated in Euro as follows: Amortization expense (related to asset was acquired on October 15, 2024) is € 600,000, Interest expense is € 700,000 and income tax expense is € 300,000. Relevant exchange rate as follows:</p><ul><li>January 1, 2024 $ 1.10</li><li>October 15, 2024 $ 1.06</li><li>December 31, 2024 $ 1.04</li><li>Average for the year $ 1.05</li></ul></div>Under the current rate method, the total amount that should be included in consolidated income statement for the expenses listed is:",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,760,000" },
+                    { "id": "b", "text": "b. $ 1,696,000" },
+                    { "id": "c", "text": "c. $ 1,686,000" },
+                    { "id": "d", "text": "d. $ 1,680,000" },
+                    { "id": "e", "text": "e. $ 1,664,000" }
+                ],
+                "correct": "d",
+                "basmaga": "المعدل الجاري بيجمع كل المصروفات (1600k يورو) وتضربهم في المتوسط (1.05) تطلع 1,680,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 1,680,000</strong><br><br>طريقة المعدل الجاري تترجم جميع بنود قائمة الدخل (الإيرادات والمصروفات) بمتوسط السعر: إجمالي المصروفات (1,600,000) × 1.05 = 1,680,000 دولار.",
+                "reference": "l9-acc3",
+                "reference_title": "المحاضرة التاسعة — المعدل الجاري وترجمة المصروفات"
+            },
+            {
+                "id": 21,
+                "text": "Which of the following is NOT acceptable under U.S. GAAP?",
+                "options": [
+                    { "id": "a", "text": "a. The reversal of impairment losses" },
+                    { "id": "b", "text": "b. The one transaction perspective" },
+                    { "id": "c", "text": "c. The two transaction perspective" },
+                    { "id": "d", "text": "d. The accrual approach" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "e",
+                "basmaga": "الأمريكان بيرفضوا تماماً منظور الصفقة الواحدة، وبيرفضوا نهائياً استرداد الخسائر Reversal، يبقى Both a and b.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and b</strong><br><br>تحت المعايير الأمريكية (U.S. GAAP)، لا يُسمح أبداً باسترداد الخسائر المُسجلة (Reversal of impairment)، كما أن منظور الصفقة الواحدة (One-transaction perspective) في العملات الأجنبية غير مقبول تماماً.",
+                "reference": "l4-acc3",
+                "reference_title": "المحاضرة الرابعة — الفروق الممنوعة في المعايير الأمريكية"
+            },
+            {
+                "id": 22,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/noncurrent method\nc. The current rate method\nd. The monetary/nonmonetary method\ne. Both a and c\n\nIf the functional currency is the parent company currency, what is the appropriate method of translation?",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/noncurrent method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/nonmonetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "a",
+                "basmaga": "عُملة الأم هي الوظيفية؟ يبقى هنشتغل بالطريقة الزمنية Temporal method المعقدة.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) The temporal method.</strong><br><br>إذا كانت العملة الوظيفية للفرع الأجنبي هي عملة الشركة الأم (Parent's currency)، فإن المعايير توجب استخدام الطريقة الزمنية (Remeasurement / Temporal Method).",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — العملة الوظيفية وطرق الترجمة"
+            },
+            {
+                "id": 23,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/noncurrent method\nc. The current rate method\nd. The monetary/nonmonetary method\ne. Both a and c\n\nWhich of the methods for translating foreign currency financial statements may be used under IFRS?",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/noncurrent method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/nonmonetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "e",
+                "basmaga": "الـ IFRS بيلغي الطرق القديمة، ومبيوافقش غير على الجاري والزمني (Both a and c).",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and c</strong><br><br>المعايير الدولية تعتمد فقط على طريقة المعدل الجاري (Current rate method) والطريقة الزمنية (Temporal method) ولا تقبل الطرق الكلاسيكية الأخرى.",
+                "reference": "l9-acc2",
+                "reference_title": "المحاضرة التاسعة — الطرق المعتمدة"
+            },
+            {
+                "id": 24,
+                "text": "Use the following choices to answer the next 3 questions:\na. The temporal method.\nb. The current/noncurrent method\nc. The current rate method\nd. The monetary/nonmonetary method\ne. Both a and c\n\nIf the functional currency is subsidiary currency, what is the appropriate method of translation?",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/noncurrent method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/nonmonetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "c",
+                "basmaga": "عُملة الفرع هي الوظيفية؟ يبقى هنشتغل بالطريقة الجارية السهلة Current rate method.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The current rate method</strong><br><br>إذا كانت العملة الوظيفية هي عملة الفرع المحلي (Subsidiary currency)، يجب تطبيق طريقة المعدل الجاري للترجمة وإظهار فروق الترجمة في حقوق الملكية.",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — العملة الوظيفية وطرق الترجمة"
+            },
+            {
+                "id": 25,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions</p><p class=\"mb-2\">The following inventory information was taken from the records of A company on December31, Year 1:</p><ul><li>Historical cost $ 24,000</li><li>Replacement cost $ 14,000</li><li>Estimated selling price $ 18,000</li><li>Estimated costs to complete and sell $ 1,000</li><li>Normal profit margin 10% of selling price</li></ul></div>What is the amount of net realizable value?",
+                "options": [
+                    { "id": "a", "text": "a. $13,000" },
+                    { "id": "b", "text": "b. $ 16,200" },
+                    { "id": "c", "text": "c. $ 17,000" },
+                    { "id": "d", "text": "d. $ 23,000" },
+                    { "id": "e", "text": "e. $ 15,200" }
+                ],
+                "correct": "c",
+                "basmaga": "صافي البيع = سعر البيع 18k ناقص مصاريف الإكمال 1k يدينا 17,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) $ 17,000</strong><br><br>صافي القيمة البيعية (NRV) = سعر البيع المتوقع - مصاريف البيع = 18,000 - 1,000 = 17,000 دولار.",
+                "reference": "l2-acc3",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون وحساب الـ NRV"
+            },
+            {
+                "id": 26,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions</p><p class=\"mb-2\">The following inventory information was taken from the records of A company on December31, Year 1:</p><ul><li>Historical cost $ 24,000</li><li>Replacement cost $ 14,000</li><li>Estimated selling price $ 18,000</li><li>Estimated costs to complete and sell $ 1,000</li><li>Normal profit margin 10% of selling price</li></ul></div>What should the Balance Sheet report for Inventory under IAS, 2?",
+                "options": [
+                    { "id": "a", "text": "a. $ 24,000." },
+                    { "id": "b", "text": "b. $ 14,000." },
+                    { "id": "c", "text": "c. $ 15,200" },
+                    { "id": "d", "text": "d. $ 18,000" },
+                    { "id": "e", "text": "e. $ 17,000." }
+                ],
+                "correct": "e",
+                "basmaga": "المعيار الدولي بياخد الأقل بين التكلفة (24k) والـ NRV (17k)، يبقى هنسجله بـ 17,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) $ 17,000.</strong><br><br>تحت معيار IAS 2، يُقيّم المخزون بالتكلفة أو صافي القيمة البيعية أيهما أقل. الأقل بين 24,000 و 17,000 هو 17,000 دولار.",
+                "reference": "l2-acc4",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون تحت المعيار الدولي"
+            },
+            {
+                "id": 27,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions</p><p class=\"mb-2\">The following inventory information was taken from the records of A company on December31, Year 1:</p><ul><li>Historical cost $ 24,000</li><li>Replacement cost $ 14,000</li><li>Estimated selling price $ 18,000</li><li>Estimated costs to complete and sell $ 1,000</li><li>Normal profit margin 10% of selling price</li></ul></div>Under IAS (2), the Journal entry at December 31, Year 1 is",
+                "options": [
+                    { "id": "a", "text": "a. Debit inventory loss for $ 8,800, Credit inventory for $ 8,800." },
+                    { "id": "b", "text": "b. Debit inventory loss for $7,000, Credit inventory for $ 7,000." },
+                    { "id": "c", "text": "c. Debit inventory loss for $10,000, Credit inventory for $ 10,000." },
+                    { "id": "d", "text": "d. Debit inventory loss for $6,000, Credit inventory for $ 6,000." },
+                    { "id": "e", "text": "e. No entry is required." }
+                ],
+                "correct": "b",
+                "basmaga": "الخسارة هي الفرق بين التكلفة (24k) والقيمة الجديدة (17k).. يعني خسارة 7,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Debit inventory loss for $7,000, Credit inventory for $ 7,000.</strong><br><br>المخزون سينخفض من 24,000 إلى 17,000 دولار. الخسارة = 24,000 - 17,000 = 7,000 دولار تسجل كمدين (مصروف)، ويُخفض حساب المخزون كدائن.",
+                "reference": "l2-acc4",
+                "reference_title": "المحاضرة الثانية — قيد خسارة المخزون"
+            },
+            {
+                "id": 28,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions</p><p class=\"mb-2\">The following inventory information was taken from the records of A company on December31, Year 1:</p><ul><li>Historical cost $ 24,000</li><li>Replacement cost $ 14,000</li><li>Estimated selling price $ 18,000</li><li>Estimated costs to complete and sell $ 1,000</li><li>Normal profit margin 10% of selling price</li></ul></div>Assume that subsequent to your adjustment the expected selling price increases to $26,000 (All the rest of the facts are the same). What adjustment to inventory should be made under IAS 2 after this event?",
+                "options": [
+                    { "id": "a", "text": "a. Inventory should be increased (debited) by $ 6,000." },
+                    { "id": "b", "text": "b. Inventory should be increased (debited) by $8,000." },
+                    { "id": "c", "text": "c. Inventory should be increased (debited) by $ 7,000." },
+                    { "id": "d", "text": "d. Inventory should be increased (debited) by $8,800." },
+                    { "id": "e", "text": "e. No adjustment should be made to inventory once it is written down." }
+                ],
+                "correct": "c",
+                "basmaga": "السعر ولّع لـ 26k (يعني NRV=25k)، بس سقفنا هو التكلفة 24k. المخزون متسجل 17k، يعني هنرفعه للسقف 24k، فالزيادة 7000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Inventory should be increased (debited) by $ 7,000.</strong><br><br>القيمة البيعية زادت بشكل كبير، فـ NRV الجديد أصبح 25,000. المعيار يسمح باسترداد الخسارة حتى التكلفة الأصلية فقط (24,000). المخزون حالياً مسجل بـ 17,000. إذن مقدار الزيادة (الرد) المسموح بها = 24,000 - 17,000 = 7,000 دولار تُسجل مدين في حساب المخزون.",
+                "reference": "l2-acc4",
+                "reference_title": "المحاضرة الثانية — تقييم المخزون ورد الخسارة"
+            },
+            {
+                "id": 29,
+                "text": "Using the following choices to answer the next 5 questions\na. Foreign currency forward contract.\nb. Foreign currencies call option.\nc. Foreign currency transaction\nd. Foreign currency firm commitment.\ne. Foreign currency put option\n\nA business deal denominated in a currency other than a company's domestic currency is called",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency forward contract." },
+                    { "id": "b", "text": "b. Foreign currencies call option." },
+                    { "id": "c", "text": "c. Foreign currency transaction" },
+                    { "id": "d", "text": "d. Foreign currency firm commitment." },
+                    { "id": "e", "text": "e. Foreign currency put option" }
+                ],
+                "correct": "c",
+                "basmaga": "صفقة مسعرة بعُملة تانية غير المحلي، دي الـ Foreign currency transaction علطول.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Foreign currency transaction</strong><br><br>أي معاملة أو التزام مُسعر بعُملة مختلفة عن العُملة المحلية للشركة يسمى محاسبيًا معاملة عُملة أجنبية (Foreign currency transaction).",
+                "reference": "l5-acc2",
+                "reference_title": "المحاضرة الخامسة — معاملات العملة الأجنبية"
+            },
+            {
+                "id": 30,
+                "text": "Using the following choices to answer the next 5 questions\na. Foreign currency forward contract.\nb. Foreign currencies call option.\nc. Foreign currency transaction\nd. Foreign currency firm commitment.\ne. Foreign currency put option\n\nThe obligation to exchange foreign currency at a predetermined exchange rate on a future date is called",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency forward contract." },
+                    { "id": "b", "text": "b. Foreign currencies call option." },
+                    { "id": "c", "text": "c. Foreign currency transaction" },
+                    { "id": "d", "text": "d. Foreign currency firm commitment." },
+                    { "id": "e", "text": "e. Foreign currency put option" }
+                ],
+                "correct": "a",
+                "basmaga": "تلمح كلمة obligation (إلزام) للتبديل في المستقبل، ده العقد الآجل Forward contract.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Foreign currency forward contract.</strong><br><br>العقود الآجلة هي التزامات (Obligations) لا يمكن التراجع عنها لتبادل عُملات في تاريخ مستقبلي بسعر متفق عليه، عكس الخيارات التي تعطي حقاً دون إلزام.",
+                "reference": "l5-acc4",
+                "reference_title": "المحاضرة الخامسة — المشتقات والعقود الآجلة"
+            },
+            {
+                "id": 31,
+                "text": "Using the following choices to answer the next 5 questions\na. Foreign currency forward contract.\nb. Foreign currencies call option.\nc. Foreign currency transaction\nd. Foreign currency firm commitment.\ne. Foreign currency put option\n\nThe right but not the obligation to purchase of foreign currency sometime in the future at an exchange rate quoted today is called",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency forward contract." },
+                    { "id": "b", "text": "b. Foreign currencies call option." },
+                    { "id": "c", "text": "c. Foreign currency transaction" },
+                    { "id": "d", "text": "d. Foreign currency firm commitment." },
+                    { "id": "e", "text": "e. Foreign currency put option" }
+                ],
+                "correct": "b",
+                "basmaga": "حق (right) والشراء (purchase/buy)، ده خيار الشراء Call option.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Foreign currencies call option.</strong><br><br>خيار الشراء (Call Option) هو الذي يعطي حامله الحق في شراء الأصل أو العملة بسعر محدد مستقبلاً دون إلزامه بذلك.",
+                "reference": "l5-acc4",
+                "reference_title": "المحاضرة الخامسة — خيارات العملة"
+            },
+            {
+                "id": 32,
+                "text": "Using the following choices to answer the next 5 questions\na. Foreign currency forward contract.\nb. Foreign currencies call option.\nc. Foreign currency transaction\nd. Foreign currency firm commitment.\ne. Foreign currency put option\n\nA non-cancelable order of a product that specifies the foreign currency price and date of delivery is called",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency forward contract." },
+                    { "id": "b", "text": "b. Foreign currencies call option." },
+                    { "id": "c", "text": "c. Foreign currency transaction" },
+                    { "id": "d", "text": "d. Foreign currency firm commitment." },
+                    { "id": "e", "text": "e. Foreign currency put option" }
+                ],
+                "correct": "d",
+                "basmaga": "أمر غير قابل للإلغاء (non-cancelable)، ده التزام راسخ firm commitment لا رجعة فيه.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) Foreign currency firm commitment.</strong><br><br>الالتزام الراسخ (Firm Commitment) يُعرّف بأنه اتفاق أو طلب بيع/شراء محدد التاريخ والسعر وغير قابل للإلغاء بأي حال.",
+                "reference": "l6-acc1",
+                "reference_title": "المحاضرة السادسة — مفاهيم علاقات التحوط"
+            },
+            {
+                "id": 33,
+                "text": "Using the following choices to answer the next 5 questions\na. Foreign currency forward contract.\nb. Foreign currencies call option.\nc. Foreign currency transaction\nd. Foreign currency firm commitment.\ne. Foreign currency put option\n\nThe right but not the obligation to sell of foreign currency sometime in the future at an exchange rate quoted today is called",
+                "options": [
+                    { "id": "a", "text": "a. Foreign currency forward contract." },
+                    { "id": "b", "text": "b. Foreign currencies call option." },
+                    { "id": "c", "text": "c. Foreign currency transaction" },
+                    { "id": "d", "text": "d. Foreign currency firm commitment." },
+                    { "id": "e", "text": "e. Foreign currency put option" }
+                ],
+                "correct": "e",
+                "basmaga": "حق (right) والبيع (sell)، ده خيار البيع Put option.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Foreign currency put option</strong><br><br>خيار البيع (Put Option) يعطي الحق لصاحبه ببيع كمية محددة من العملة الأجنبية بسعر محدد في تاريخ مستقبلي.",
+                "reference": "l5-acc4",
+                "reference_title": "المحاضرة الخامسة — خيارات العملة"
+            },
+            {
+                "id": 34,
+                "text": "What the term is used to describe the present value of future net cash flows expected to arise from continued use of the asset over its remaining useful life and upon disposal?",
+                "options": [
+                    { "id": "a", "text": "a. Historical cost" },
+                    { "id": "b", "text": "b. Value in use" },
+                    { "id": "c", "text": "c. Replacement cost" },
+                    { "id": "d", "text": "d. Fair value" },
+                    { "id": "e", "text": "e. Net selling price" }
+                ],
+                "correct": "b",
+                "basmaga": "قيمة حالية لتدفقات تشغيل الأصل continued use، دي القيمة قيد الاستخدام Value in use.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Value in use</strong><br><br>القيمة قيد الاستخدام (Value in use) تُعرّف كالقيمة الحالية المخصومة للتدفقات النقدية الصافية المستقبلية المنتظر تحقيقها من تشغيل الأصل حتى خردته.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — مفاهيم الاضمحلال"
+            },
+            {
+                "id": 35,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next two questions;</p><p class=\"mb-2\">Selected balance sheet accounts of a foreign subsidiary of the U.S. Company have been translated into parent currency ($) as follows:</p><table class=\"w-full text-left mb-2\"><thead><tr><th>Account</th><th>Current rate</th><th>Historical rate</th></tr></thead><tbody><tr><td>Account receivable</td><td>$ 240,000</td><td>$ 200,000</td></tr><tr><td>Inventory, cost</td><td>$ 350,000</td><td>$ 300,000</td></tr><tr><td>Property, plant, and equipment</td><td>$ 420,000</td><td>$ 400,000</td></tr><tr><td>Patent</td><td>$ 280,000</td><td>$ 250,000</td></tr></tbody></table></div>Under the current rate method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
+                "options": [
+                    { "id": "a", "text": "a. $ 1,270,000" },
+                    { "id": "b", "text": "b. $ 1,220,000" },
+                    { "id": "c", "text": "c. $ 1,150,000" },
+                    { "id": "d", "text": "d. $ 1,290,000" },
+                    { "id": "e", "text": "e. $ 1,250,000" }
+                ],
+                "correct": "d",
+                "basmaga": "طريقة المعدل الجاري السهلة: اجمع كل أرقام عمود الـ Current rate تطلع الحسبة 1,290,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 1,290,000</strong><br><br>تحت طريقة المعدل الجاري (Current Rate Method)، جميع الأصول بلا استثناء تترجم بالسعر الجاري. إذن نجمع عمود السعر الجاري بالكامل: 240,000 + 350,000 + 420,000 + 280,000 = 1,290,000 دولار.",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — طرق الترجمة الشاملة"
+            },
+            {
+                "id": 36,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next two questions;</p><p class=\"mb-2\">Selected balance sheet accounts of a foreign subsidiary of the U.S. Company have been translated into parent currency ($) as follows:</p><table class=\"w-full text-left mb-2\"><thead><tr><th>Account</th><th>Current rate</th><th>Historical rate</th></tr></thead><tbody><tr><td>Account receivable</td><td>$ 240,000</td><td>$ 200,000</td></tr><tr><td>Inventory, cost</td><td>$ 350,000</td><td>$ 300,000</td></tr><tr><td>Property, plant, and equipment</td><td>$ 420,000</td><td>$ 400,000</td></tr><tr><td>Patent</td><td>$ 280,000</td><td>$ 250,000</td></tr></tbody></table></div>Under the temporal method, the total amount that should be included in the consolidated balance sheet for the assets listed is",
+                "options": [
+                    { "id": "a", "text": "a. $1,270,000" },
+                    { "id": "b", "text": "b. $ 1,220,000" },
+                    { "id": "c", "text": "c. $ 1,150,000" },
+                    { "id": "d", "text": "d. $ 1,290,000" },
+                    { "id": "e", "text": "e. $ 1,190,000" }
+                ],
+                "correct": "e",
+                "basmaga": "الطريقة الزمنية: العملاء فقط جاري (240k)، والباقي تاريخي (300k+400k+250k). المجموع 1,190,000.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) $ 1,190,000</strong><br><br>تحت الطريقة الزمنية (Temporal Method)، الأصول النقدية فقط (مثل العملاء) تأخذ السعر الجاري (240,000). الأصول غير النقدية (المخزون بالتكلفة، المعدات، براءات الاختراع) تأخذ السعر التاريخي: 300,000 + 400,000 + 250,000 = 950,000. المجموع الكلي = 240,000 + 950,000 = 1,190,000 دولار. (ملحوظة: الخيار e تم تصحيحه ليتطابق مع المنطق المحاسبي الصحيح).",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — الطريقة الزمنية لترجمة الأصول"
+            },
+            {
+                "id": 37,
+                "text": "Which of the following inventory valuation methods commonly used in the U.S. is NOT allowed under IAS 2?",
+                "options": [
+                    { "id": "a", "text": "a. FIFO" },
+                    { "id": "b", "text": "b. Weighted-average cost" },
+                    { "id": "c", "text": "c. LIFO" },
+                    { "id": "d", "text": "d. Retail inventory method" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "c",
+                "basmaga": "المعايير الدولية بترفض طريقة LIFO نهائياً لأنها بتظهر أرقام قديمة غير واقعية.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) LIFO</strong><br><br>المعايير الدولية (IFRS/IAS 2) تمنع استخدام طريقة الـ LIFO (ما يرد أخيراً يصرف أولاً) في حين أن المعايير الأمريكية (U.S. GAAP) تسمح بها لأغراض ضريبية.",
+                "reference": "l2-acc3",
+                "reference_title": "المحاضرة الثانية — طرق تقييم المخزون المسموحة والمرفوضة"
+            },
+            {
+                "id": 38,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions.</p><p class=\"mb-2\">The following information was taken from the equipment records of ABC company as of December 31, 2023:</p><ul><li>Carrying value $ 200,000</li><li>Selling price $ 170,000</li><li>Cost of disposal $ 6,000</li><li>Expected future cash flow $ 206,000</li><li>Present value of expected future cash flow $ 126,000</li></ul></div>Using IAS 36, what is the recoverable amount?",
+                "options": [
+                    { "id": "a", "text": "a. $ 170,000." },
+                    { "id": "b", "text": "b. $ 164,000." },
+                    { "id": "c", "text": "c. $ 126,000." },
+                    { "id": "d", "text": "d. $ 206,000." },
+                    { "id": "e", "text": "e. $ 200,000." }
+                ],
+                "correct": "b",
+                "basmaga": "الأكبر بين صافي البيع (170k - 6k) والتدفقات المخصومة (126k) هو 164,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) $ 164,000.</strong><br><br>القيمة الاستردادية (Recoverable amount) هي القيمة الأكبر بين صافي سعر البيع (170,000 - 6,000 = 164,000) والقيمة قيد الاستخدام المخصومة (126,000). الأكبر هو 164,000 دولار.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — الاضمحلال والقيمة الاستردادية"
+            },
+            {
+                "id": 39,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions.</p><p class=\"mb-2\">The following information was taken from the equipment records of ABC company as of December 31, 2023:</p><ul><li>Carrying value $ 200,000</li><li>Selling price $ 170,000</li><li>Cost of disposal $ 6,000</li><li>Expected future cash flow $ 206,000</li><li>Present value of expected future cash flow $ 126,000</li></ul></div>Using IAS 36, what is the amount of Impairment Loss?",
+                "options": [
+                    { "id": "a", "text": "a. $ 74,000." },
+                    { "id": "b", "text": "b. $ 30,000." },
+                    { "id": "c", "text": "c. $ 6,000." },
+                    { "id": "d", "text": "d. $ 36,000." },
+                    { "id": "e", "text": "e. No impairment loss." }
+                ],
+                "correct": "d",
+                "basmaga": "الأصل متسجل 200k وآخره يجيب 164k.. يبقى خسرنا الفرق 36,000 دولار.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) $ 36,000.</strong><br><br>خسارة الاضمحلال = القيمة الدفترية (200,000) - القيمة الاستردادية (164,000) = 36,000 دولار.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — حساب خسارة الاضمحلال"
+            },
+            {
+                "id": 40,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions.</p><p class=\"mb-2\">The following information was taken from the equipment records of ABC company as of December 31, 2023:</p><ul><li>Carrying value $ 200,000</li><li>Selling price $ 170,000</li><li>Cost of disposal $ 6,000</li><li>Expected future cash flow $ 206,000</li><li>Present value of expected future cash flow $ 126,000</li></ul></div>Using IAS 36, the appropriate journal entry to record impairment loss is",
+                "options": [
+                    { "id": "a", "text": "a. Debit impairment loss $ 74,000, Credit Accumulated depreciation $ 74,000." },
+                    { "id": "b", "text": "b. Debit impairment loss $ 36,000, Credit Accumulated depreciation $ 36,000." },
+                    { "id": "c", "text": "c. Debit impairment loss $ 74,000, Credit equipment $ 74,000." },
+                    { "id": "d", "text": "d. Debit impairment loss $ 30,000, Credit equipment $ 30,000." },
+                    { "id": "e", "text": "e. Debit impairment loss $ 36,000, Credit equipment $ 36,000." }
+                ],
+                "correct": "e",
+                "basmaga": "بنسجل الخسارة في قائمة الدخل 36k، ونخفض أصل المعدة في الدفاتر 36k دائن.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Debit impairment loss $ 36,000, Credit equipment $ 36,000.</strong><br><br>القيد المحاسبي لإثبات الاضمحلال هو إثبات المصروف في الطرف المدين بـ 36,000 (Impairment loss) وتخفيض قيمة الأصل (Equipment أو Accumulated Impairment) في الطرف الدائن بـ 36,000.",
+                "reference": "l4-acc2",
+                "reference_title": "المحاضرة الرابعة — قيود إثبات الاضمحلال"
+            },
+            {
+                "id": 41,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 4 questions.</p><p class=\"mb-2\">The following information was taken from the equipment records of ABC company as of December 31, 2023:</p><ul><li>Carrying value $ 200,000</li><li>Selling price $ 170,000</li><li>Cost of disposal $ 6,000</li><li>Expected future cash flow $ 206,000</li><li>Present value of expected future cash flow $ 126,000</li></ul></div>Using U.S GAAP, what is the amount of Impairment Loss?",
+                "options": [
+                    { "id": "a", "text": "a. $ 74,000." },
+                    { "id": "b", "text": "b. $ 30,000." },
+                    { "id": "c", "text": "c. $ 6,000." },
+                    { "id": "d", "text": "d. $ 36,000." },
+                    { "id": "e", "text": "e. No impairment loss." }
+                ],
+                "correct": "e",
+                "basmaga": "الأمريكان بيقارنوا الكاش غير المخصوم (206k) بالدفترية (200k). طالما هيجيب فلوس أكتر يبقى مفيش اضمحلال.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) No impairment loss.</strong><br><br>وفقاً للمعايير الأمريكية (U.S. GAAP)، نقوم بمقارنة القيمة الدفترية (200,000) بإجمالي التدفقات النقدية غير المخصومة (206,000). بما أن التدفقات تتجاوز القيمة الدفترية، لا يوجد اضمحلال.",
+                "reference": "l4-acc3",
+                "reference_title": "المحاضرة الرابعة — الاضمحلال وفق المعايير الأمريكية"
+            },
+            {
+                "id": 42,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions</p><p class=\"mb-2\">A company has equipment that cost €5,000,000, with accumulated depreciation of €1,500,000 and a carrying amount of € 3,500,000 on December 31, 2023. On that date, A Company conducted its first revaluation.</p></div>Assuming the fair value for equipment is € 6,000,000, what account should be credited for € 2,500,000 under IAS 16?",
+                "options": [
+                    { "id": "a", "text": "a. Revaluation surplus." },
+                    { "id": "b", "text": "b. Revaluation revenue." },
+                    { "id": "c", "text": "c. Accumulated Depreciation." },
+                    { "id": "d", "text": "d. Recovery of loss on revaluation" },
+                    { "id": "e", "text": "e. Gain from revaluation of equipment." }
+                ],
+                "correct": "a",
+                "basmaga": "المكسب لأول مرة (من 3.5 مليون لـ 6 مليون) بيترمي في حصالة حقوق الملكية Revaluation surplus.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) Revaluation surplus.</strong><br><br>المكسب الناتج عن أول إعادة تقييم للأصل (6,000,000 - 3,500,000 = 2,500,000) يجب تسجيله في الدخل الشامل ويرحل إلى حساب احتياطي حقوق الملكية (Revaluation Surplus).",
+                "reference": "l3-acc3",
+                "reference_title": "المحاضرة الثالثة — فائض إعادة التقييم الأول"
+            },
+            {
+                "id": 43,
+                "text": "<div class=\"mb-4 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100\"><p class=\"font-bold mb-2 text-emerald-800\">Use the following information to answer the next 2 questions</p><p class=\"mb-2\">A company has equipment that cost €5,000,000, with accumulated depreciation of €1,500,000 and a carrying amount of € 3,500,000 on December 31, 2023. On that date, A Company conducted its first revaluation.</p></div>Assuming the fair value for equipment is € 3,000,000 (rather than € 6,000,000), what account should be debited for € 500,000 under IAS 16?",
+                "options": [
+                    { "id": "a", "text": "a. Revaluation surplus." },
+                    { "id": "b", "text": "b. Revaluation revenue" },
+                    { "id": "c", "text": "c. Accumulated Depreciation." },
+                    { "id": "d", "text": "d. Recovery of loss on revaluation" },
+                    { "id": "e", "text": "e. Loss on revaluation." }
+                ],
+                "correct": "e",
+                "basmaga": "أصل خسر لأول مرة ومفيش حصالة قديمة؟ نرمي الخسارة مصروف صريح Loss on revaluation في قائمة الدخل.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Loss on revaluation.</strong><br><br>النقص في التقييم لأول مرة (3,500,000 - 3,000,000 = 500,000) يُعترف به كخسارة فورية في قائمة الدخل تطبيقاً لمبدأ الحيطة والحذر (Debit Loss on revaluation).",
+                "reference": "l3-acc3",
+                "reference_title": "المحاضرة الثالثة — خسارة إعادة التقييم الأول"
+            },
+            {
+                "id": 44,
+                "text": "Under the current rate method of translating foreign currency financial statements, what exchange rate should be used for the cost of goods sold?",
+                "options": [
+                    { "id": "a", "text": "a. Historical rate" },
+                    { "id": "b", "text": "b. Current rate" },
+                    { "id": "c", "text": "c. Average rate" },
+                    { "id": "d", "text": "d. Forward rate" },
+                    { "id": "e", "text": "e. No single exchange rate" }
+                ],
+                "correct": "c",
+                "basmaga": "المعدل الجاري بيعتبر تكلفة المبيعات مصروف عادي، فيضربها كلها في متوسط السنة Average rate.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Average rate</strong><br><br>تحت طريقة المعدل الجاري السهلة، كافة المصروفات التشغيلية بما فيها تكلفة المبيعات (COGS) تُترجم باستخدام متوسط سعر الصرف للفترة.",
+                "reference": "l9-acc2",
+                "reference_title": "المحاضرة التاسعة — جدول أسعار الترجمة للمصروفات"
+            },
+            {
+                "id": 45,
+                "text": "Which of the translation methods treated translation adjustment as part of other comprehensive income on the consolidated balance sheet?",
+                "options": [
+                    { "id": "a", "text": "a. The temporal method." },
+                    { "id": "b", "text": "b. The current/noncurrent method" },
+                    { "id": "c", "text": "c. The current rate method" },
+                    { "id": "d", "text": "d. The monetary/nonmonetary method" },
+                    { "id": "e", "text": "e. Both a and c" }
+                ],
+                "correct": "c",
+                "basmaga": "اللي بترمي فروق الترجمة كلها في الدخل الشامل (OCI) هي الطريقة الجارية السهلة Current rate method.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The current rate method</strong><br><br>طريقة المعدل الجاري (Current rate method) لا تسجل فروق الترجمة في قائمة الدخل، بل تُعتبر كتعديل تراكمي يُدرج في الدخل الشامل الآخر (OCI) ضمن حقوق الملكية.",
+                "reference": "l9-acc4",
+                "reference_title": "المحاضرة التاسعة — طرق الترجمة وفروقها"
+            },
+            {
+                "id": 46,
+                "text": "The exchange rate at which the option will be executed if the holder of the option decides to exercise the option is called",
+                "options": [
+                    { "id": "a", "text": "a. The intrinsic value" },
+                    { "id": "b", "text": "b. The time value" },
+                    { "id": "c", "text": "c. The strike price" },
+                    { "id": "d", "text": "d. The spot rate" },
+                    { "id": "e", "text": "e. The forward rate" }
+                ],
+                "correct": "c",
+                "basmaga": "السعر المربوط جوه ورقة الخيار واللي هنفذ بيه لو حبينا، هو سعر التنفيذ Strike price.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The strike price</strong><br><br>سعر التنفيذ (Strike Price) هو السعر المتفق عليه والمثبت داخل عقد خيارات العملة، والذي يمنح للمشتري حق التنفيذ به.",
+                "reference": "l7-acc5",
+                "reference_title": "المحاضرة السابعة — مفاهيم خيارات العملة"
+            },
+            {
+                "id": 47,
+                "text": "Using the following choices to answer the next 4 questions.\na. The cost model\nb. The revaluation model\nc. The deferral approach\nd. The accrual approach\ne. Both a and b\n\nSubsequent to initial recognition of fixed assets, what is the treatment allowed for reporting fixed assets under IFRS?",
+                "options": [
+                    { "id": "a", "text": "a. The cost model" },
+                    { "id": "b", "text": "b. The revaluation model" },
+                    { "id": "c", "text": "c. The deferral approach" },
+                    { "id": "d", "text": "d. The accrual approach" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "e",
+                "basmaga": "المعايير الدولية مرنة، بتديك الاختيار بين نموذج التكلفة ونموذج إعادة التقييم Both a and b.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (e) Both a and b</strong><br><br>بموجب المعيار الدولي (IAS 16)، يُسمح للشركات بالاختيار بين نموذج التكلفة التاريخية (Cost model) ونموذج إعادة التقييم العادل (Revaluation model).",
+                "reference": "l3-acc2",
+                "reference_title": "المحاضرة الثالثة — نماذج القياس اللاحق للأصول"
+            },
+            {
+                "id": 48,
+                "text": "Using the following choices to answer the next 4 questions.\na. The cost model\nb. The revaluation model\nc. The deferral approach\nd. The accrual approach\ne. Both a and b\n\nWhat is the treatment allowed for reporting fixed assets under U.S. GAAP after initial recognition of fixed assets?",
+                "options": [
+                    { "id": "a", "text": "a. The cost model" },
+                    { "id": "b", "text": "b. The revaluation model" },
+                    { "id": "c", "text": "c. The deferral approach" },
+                    { "id": "d", "text": "d. The accrual approach" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "a",
+                "basmaga": "الأمريكان بيمنعوا إعادة التقييم نهائياً ومبيسمحوش غير بنموذج التكلفة Cost model بس.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (a) The cost model</strong><br><br>المعايير الأمريكية (U.S. GAAP) صارمة في تقييم الأصول الثابتة وتفرض نموذج التكلفة التاريخية (Cost model) وترفض تماماً إعادة التقييم لأعلى.",
+                "reference": "l3-acc2",
+                "reference_title": "المحاضرة الثالثة — الفروق بين المعايير الأمريكية والدولية"
+            },
+            {
+                "id": 49,
+                "text": "Using the following choices to answer the next 4 questions.\na. The cost model\nb. The revaluation model\nc. The deferral approach\nd. The accrual approach\ne. Both a and b\n\nWhich of these treatments are not acceptable under both IFRS and U.S. GAAP?",
+                "options": [
+                    { "id": "a", "text": "a. The cost model" },
+                    { "id": "b", "text": "b. The revaluation model" },
+                    { "id": "c", "text": "c. The deferral approach" },
+                    { "id": "d", "text": "d. The accrual approach" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "c",
+                "basmaga": "المنظور المرفوض في العملات الأجنبية في كل المعايير هو تأجيل الخسائر Deferral approach.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) The deferral approach</strong><br><br>طريقة التأجيل (Deferral approach) التي تؤجل الاعتراف بخسائر فروق العملة حتى التحصيل الفعلي هي طريقة مرفوضة ومحرمة تحت كل من IFRS و U.S. GAAP.",
+                "reference": "l5-acc3",
+                "reference_title": "المحاضرة الخامسة — المناهج المرفوضة في ترجمة العملات"
+            },
+            {
+                "id": 50,
+                "text": "Using the following choices to answer the next 4 questions.\na. The cost model\nb. The revaluation model\nc. The deferral approach\nd. The accrual approach\ne. Both a and b\n\nWhich of these treatments state that firm reports unrealized foreign exchange gains and losses in net income in the period in which the exchange rate changes?",
+                "options": [
+                    { "id": "a", "text": "a. The cost model" },
+                    { "id": "b", "text": "b. The revaluation model" },
+                    { "id": "c", "text": "c. The deferral approach" },
+                    { "id": "d", "text": "d. The accrual approach" },
+                    { "id": "e", "text": "e. Both a and b" }
+                ],
+                "correct": "d",
+                "basmaga": "الاعتراف الفوري بالمكسب والخسارة في نفس سنة التغيير ده مبدأ الاستحقاق The accrual approach.",
+                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (d) The accrual approach</strong><br><br>مبدأ الاستحقاق (Accrual approach) يتطلب تسجيل المكاسب والخسائر غير المحققة الناتجة عن فروق العملة في قائمة الدخل للفترة التي حدث فيها التغيير، وهو المنظور المعتمد دولياً وأمريكياً.",
+                "reference": "l5-acc3",
+                "reference_title": "المحاضرة الخامسة — طريقة الاستحقاق والاعتراف بالفروق"
+            }
+        ]
     }
+
+
 
 };

@@ -2869,6 +2869,78 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 3 — الامتحان الثالث: امتحان كريدت 2026 -->
+                <div class="exam-card" style="border-color: #2563eb; border-width: 2px; max-width: 500px; width: 100%;">
+                    <div class="exam-card-header" style="background: linear-gradient(135deg, #1e40af, #2563eb);">
+                        <div class="bg-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="exam-card-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="exam-card-title">الامتحان الثالث 🎖️</div>
+                        <div class="exam-card-sub">امتحان كريدت 2026 (Credit 2026)</div>
+                    </div>
+                    <div class="exam-card-body">
+                        <div style="background: linear-gradient(135deg, #dbeafe, #bfdbfe); border: 1.5px solid #3b82f6; border-radius: 0.75rem; padding: 0.65rem 1rem; margin-bottom: 1rem; font-size: 0.8rem; font-weight: 700; color: #1e40af; display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fa-solid fa-lightbulb" style="color: #2563eb;"></i>
+                            بنك الأسئلة الشامل ومطابق لمعايير امتحانات كريدت 2026
+                        </div>
+                        <div class="exam-stats">
+                            <div class="exam-stat">
+                                <i class="fa-solid fa-list-ol" style="color:#2563eb"></i>
+                                <div class="label">الأسئلة</div>
+                                <div class="value" id="q-count-3">-- سؤال</div>
+                            </div>
+                            <div class="exam-stat">
+                                <i class="fa-solid fa-brain" style="color:#0284c7"></i>
+                                <div class="label">النوع</div>
+                                <div class="value">ساعات معتمدة</div>
+                            </div>
+                        </div>
+                        <div class="exam-btns">
+                            <button class="btn btn-primary" onclick="startExam('accounting_programs_exam_model_Credit_2026', false)" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); box-shadow: 0 2px 8px rgba(37,99,235,0.4);">
+                                <i class="fa-solid fa-rocket"></i> اختبر نفسك
+                            </button>
+                            <button class="btn btn-dark" onclick="startExam('accounting_programs_exam_model_Credit_2026', true)">
+                                <i class="fa-solid fa-bolt-lightning"></i> دراسة وبصمجة
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 — الامتحان الرابع: امتحان Credit 2025 الشامل -->
+                <div class="exam-card" style="border-color: #ea580c; border-width: 2px; max-width: 500px; width: 100%;">
+                    <div class="exam-card-header" style="background: linear-gradient(135deg, #c2410c, #ea580c);">
+                        <div class="bg-icon"><i class="fa-solid fa-medal"></i></div>
+                        <div class="exam-card-icon"><i class="fa-solid fa-medal"></i></div>
+                        <div class="exam-card-title">الامتحان الرابع 🏆</div>
+                        <div class="exam-card-sub">امتحان Credit 2025 الشامل</div>
+                    </div>
+                    <div class="exam-card-body">
+                        <div style="background: linear-gradient(135deg, #ffedd5, #fed7aa); border: 1.5px solid #f97316; border-radius: 0.75rem; padding: 0.65rem 1rem; margin-bottom: 1rem; font-size: 0.8rem; font-weight: 700; color: #c2410c; display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fa-solid fa-lightbulb" style="color: #ea580c;"></i>
+                            حل امتحان الميدتيرم/الفاينال لعام 2025 الخاص ببرنامج الساعات المعتمدة
+                        </div>
+                        <div class="exam-stats">
+                            <div class="exam-stat">
+                                <i class="fa-solid fa-list-ol" style="color:#ea580c"></i>
+                                <div class="label">الأسئلة</div>
+                                <div class="value" id="q-count-4">-- سؤال</div>
+                            </div>
+                            <div class="exam-stat">
+                                <i class="fa-solid fa-brain" style="color:#0284c7"></i>
+                                <div class="label">النوع</div>
+                                <div class="value">نموذج شامل</div>
+                            </div>
+                        </div>
+                        <div class="exam-btns">
+                            <button class="btn btn-primary" onclick="startExam('credit_2025_exam', false)" style="background: linear-gradient(135deg, #ea580c, #c2410c); box-shadow: 0 2px 8px rgba(234,88,12,0.4);">
+                                <i class="fa-solid fa-rocket"></i> اختبر نفسك
+                            </button>
+                            <button class="btn btn-dark" onclick="startExam('credit_2025_exam', true)">
+                                <i class="fa-solid fa-bolt-lightning"></i> دراسة وبصمجة
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- History -->
             <div id="history-section" class="history-section hidden">
@@ -3151,7 +3223,7 @@
             questionGroupMap = new Array(questions.length).fill(-1);
             questionGroups = [];
 
-            if (examId === "accounting_programs_exam_model_5") {
+            if (examId === "accounting_programs_exam_model_5" || examId === "accounting_programs_exam_model_Credit_2026" || examId === "credit_2025_exam") {
                 // Group dynamically by lecture reference
                 const categories = {
                     "l1": { label: "المحاضرة الأولى: نطاق المحاسبة الدولية ومشاكل الأعمال العالمية", indices: [] },
@@ -3965,6 +4037,16 @@
                 if (examsData['accounting_programs_exam_model_5']) {
                     const cnt = examsData['accounting_programs_exam_model_5'].questions.length;
                     const el = document.getElementById('q-count-2');
+                    if (el) el.textContent = cnt + ' سؤال';
+                }
+                if (examsData['accounting_programs_exam_model_Credit_2026']) {
+                    const cnt = examsData['accounting_programs_exam_model_Credit_2026'].questions.length;
+                    const el = document.getElementById('q-count-3');
+                    if (el) el.textContent = cnt + ' سؤال';
+                }
+                if (examsData['credit_2025_exam']) {
+                    const cnt = examsData['credit_2025_exam'].questions.length;
+                    const el = document.getElementById('q-count-4');
                     if (el) el.textContent = cnt + ' سؤال';
                 }
             }
