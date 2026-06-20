@@ -437,7 +437,7 @@ const examsData = {
             },
             {
                 "id": 28,
-                "text": "How should the Revaluation surplus be recorded on December 31, 2023?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A company has equipment that cost $ 60,000, with accumulated depreciation of $14,000 and a carrying amount of $46,000 on December 31, 2023. On that date, A Company determines that the fair value for equipment is 26,000. The equipment had previously been revalued upward by 12,000</p></div>How should the Revaluation surplus be recorded on December 31, 2023?",
                 "options": [
                     { "id": "a", "text": "a. Debit Revaluation surplus for $20,000." },
                     { "id": "b", "text": "b. Credit Revaluation surplus for $20,000" },
@@ -453,7 +453,7 @@ const examsData = {
             },
             {
                 "id": 29,
-                "text": "How should the loss on revaluation be recorded on December 31, 2023?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A company has equipment that cost $ 60,000, with accumulated depreciation of $14,000 and a carrying amount of $46,000 on December 31, 2023. On that date, A Company determines that the fair value for equipment is 26,000. The equipment had previously been revalued upward by 12,000</p></div>How should the loss on revaluation be recorded on December 31, 2023?",
                 "options": [
                     { "id": "a", "text": "a. Debit loss on revaluation for $20,000." },
                     { "id": "b", "text": "b. Debit loss on revaluation for $8,000." },
@@ -469,7 +469,7 @@ const examsData = {
             },
             {
                 "id": 30,
-                "text": "Assume the fair value of equipment is $34,000, how should the loss on revaluation be recorded on December 31, 2023?",
+                "text": "<div class=\"fahd-shared-table mb-4\" style=\"direction: ltr; text-align: left;\"><p class=\"font-bold text-slate-700 mb-2\">Use the following information to answer the next 3 questions:<br>A company has equipment that cost $ 60,000, with accumulated depreciation of $14,000 and a carrying amount of $46,000 on December 31, 2023. On that date, A Company determines that the fair value for equipment is 26,000. The equipment had previously been revalued upward by 12,000</p></div>Assume the fair value of equipment is $34,000, how should the loss on revaluation be recorded on December 31, 2023?",
                 "options": [
                     { "id": "a", "text": "a. Debit loss on revaluation for $20,000." },
                     { "id": "b", "text": "b. Debit loss on revaluation for $8,000." },
